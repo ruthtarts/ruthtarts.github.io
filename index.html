@@ -1,34 +1,42 @@
 <!-- Doctype HTML5 -->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ruth's WDD 230 Assignment Portal</title>
-    <meta name="description" content="Ruth's WDD 230 Assignment Portal for BYU-Idaho">
-    <link href="css/main.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-  <header>
-    <img src="images/profilepic.jpg" alt="Ruth Mecham">
-    <h1>Ruth Mecham</h1>
-  </header>
-  <main>
-    <div>
-      <h2>WDD 230: Assignment Portal</h2>
-    </div>
-
-    <nav>
-      <ul>
-        <li>Lesson 02: <a href="#">Assignment Link</a></li>
-        <li>Lesson 03: <a href="#">Assignment Link</a></li>
-        <li>Lesson 04: <a href="#">Link</a> | <a href="#">Link</a></li>
-      </ul>
-    </nav>
-  </main>
-  <footer>
-      <p>&copy; 2021 | Ruth Mecham | Idaho <a href="https://www.byui.edu/online">BYUI Online Learning</a>
-  </footer>
-  <script> src="js/currentdate"></script>
-</body>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ruth's WDD 230 Assignment Portal</title>
+    <meta
+      name="description"
+      content="Ruth's WDD 230 Assignment Portal for BYU-Idaho"
+    />
+    <link href="/css/main.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="/images/profilepic.jpg"
+        alt="Ruth Mecham"
+      />
+      <h1>Ruth Mecham</h1>
+    </header>
+    <main>
+      <nav>
+        <h2>WDD 230: Assignment Portal</h2>
+        <hr />
+        <ul>
+          <li>Lesson 02: <a href="#">Assignment Link</a></li>
+          <li>Lesson 03: <a href="#">Assignment Link</a></li>
+          <li>Lesson 04: <a href="#">Link</a> | <a href="#">Link</a></li>
+        </ul>
+      </nav>
+    </main>
+    <footer>
+      <p>
+        &copy; 2021 | Ruth Mecham | Idaho
+        <a id="link" href="https://www.byui.edu/online">BYUI Online Learning</a>
+      </p>
+      <p>Last Updated on <span id="currentdate"></span></p>
+      <script src="currentdate.js"></script>
+    </footer>
+  </body>
 </html>
