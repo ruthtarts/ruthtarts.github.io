@@ -1,2 +1,2 @@
-document.getElementById("currentdate").innerHTML = document.lastModified;
-
+let date = document.lastModified;
+document.write(date);
