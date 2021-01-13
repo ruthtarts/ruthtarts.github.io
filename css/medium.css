@@ -4,4 +4,9 @@
         box-shadow: 5px 11px 19px 15px rgba(0,0,0,0.27);
         
     }
+
+    h1 {
+        font-size: 45px;
+        letter-spacing: 2.5px;
+   }   
 }
