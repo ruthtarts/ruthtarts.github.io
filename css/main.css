@@ -13,7 +13,7 @@ body {
    
    header, nav, main, footer {
        margin: 2rem auto;
-       font-family: 'Trebuchet MS', sans-serif;
+       font-family: 'Open Sans', sans-serif;
        max-width: 760px;
    }
    
@@ -28,6 +28,7 @@ body {
         border-radius: 15px;
         text-align: center; 
         height: 85px;
+        font-family: 'Josefin Sans', sans-serif;
        }
    
    
@@ -58,3 +59,5 @@ body {
        padding-top: 23px;
    
    }
+
+
