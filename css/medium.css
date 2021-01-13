@@ -1,6 +1,9 @@
 @media only screen and (min-width: 32.5em) {   
-img {
-    float: right;
-    box-shadow: 5px 11px 19px 15px rgba(0,0,0,0.27);
-
+    img {
+        width: 150px;
+        float: right;
+        box-shadow: 5px 11px 19px 15px rgba(0,0,0,0.27);
+        margin: 1rem;
+        
+    }
 }
