@@ -1,33 +1,44 @@
-@media only screen and (min-width: 32.5em) {   
-    img {
-        float: right;
-        box-shadow: 5px 11px 19px 15px rgba(0,0,0,0.27);
-        width: 150px;
-        margin: 1rem;
-       
-    }
-
-    h1 {
-        font-size: 45px;
-        letter-spacing: 2.5px;
-   }   
-
-   footer {
-    font-size: 16px;
-    background-color: #115D7E;
-    color: white;
-    border-radius: 15px;
-    text-align: center;
-    height: 50px;
-    line-height: 1px;
-    padding-top: 13px;
-    padding-bottom: 15px;
+body {
+    font-size: 18px;
+    line-height: 1.5;
+   }
+    
+   a {
+     color: #ac111a;
+   }
+   
+   #link {
+     color: white;
+   }
+   
   
-  }
-
-  header, nav, main, footer {
-    margin: 2rem auto;
-    font-family: 'Open Sans', sans-serif;
-    max-width: 760px;
-}
-}
+   
+   main {
+       color: #6D6D64;
+   }
+   
+   header {
+        background-color: #115D7E;
+        color: white;
+        border-radius: 15px;
+        text-align: center; 
+        font-family: 'Merriweather', serif;
+        padding: .1px;
+        height: 120px;
+       }
+  
+       img {
+  
+   }
+   
+   nav {
+      margin: .25rem;
+   }
+   
+   hr {
+     margin-top: -20px;
+   }
+   
+  
+  
+  
