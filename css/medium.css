@@ -29,6 +29,10 @@ body {
     letter-spacing: 2.5px;
 }   
 
+img {
+  float: center;
+}
+
 footer {
 font-size: 16px;
 background-color: #115D7E;
