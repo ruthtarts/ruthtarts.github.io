@@ -11,11 +11,7 @@ body {
    color: white;
  }
  
- header, nav, main, footer {
-     margin: 2rem auto;
-     font-family: 'Open Sans', sans-serif;
-     max-width: 760px;
- }
+
  
  main {
      color: #6D6D64;
@@ -43,16 +39,5 @@ body {
    margin-top: -20px;
  }
  
- footer {
-  font-size: 16px;
-  background-color: #115D7E;
-  color: white;
-  border-radius: 15px;
-  text-align: center;
-  height: 50px;
-  line-height: 1px;
-  padding-top: 13px;
-  padding-bottom: 15px;
 
-}
 
