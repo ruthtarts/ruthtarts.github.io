@@ -70,6 +70,9 @@
     padding: 4px;
     max-width: 250px;
     margin: 5px;
+    height: 100%;
+    margin:0;
+    padding:0
   
     }
   
@@ -77,4 +80,6 @@
    background-color: #6D6D64;
    color: white;
    padding: 5px;
+   margin: 0;
+   padding: 0;
   }
