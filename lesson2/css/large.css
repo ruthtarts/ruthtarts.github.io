@@ -1,4 +1,8 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {   
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
 
     body {
       font-size: 18px;
@@ -50,10 +54,7 @@
     max-width: 760px;
     }
     
-    main {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-    }
+
     
     header {
     background-color: #115D7E;
@@ -82,6 +83,4 @@
      background-color: #6D6D64;
      color: white;
      padding: 5px;
-    }
-    
     }
