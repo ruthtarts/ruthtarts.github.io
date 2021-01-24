@@ -141,16 +141,15 @@
      
   
   
-  footer {
-        flex: 0 1 100%;
-  font-size: 10px;
-  background-color: #595959;
-  color: white;
-  text-align: center;
-  height: 20px;
-  line-height: 1px;
-  padding-top: 13px;
-  
+     footer {
+      background-color: #595959;
+      color: white;
+      text-align: center;
+      height: 150px;
+      line-height: 1px;
+      padding-top: 13px;
+      padding-bottom: 15px;
+      
   }
   
   img {
