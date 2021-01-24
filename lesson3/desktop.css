@@ -1,0 +1,6 @@
+@media only screen and (min-width: 601px) {   
+
+    .menu {
+      display: flex;
+      padding-left: 7.5em;
+    }

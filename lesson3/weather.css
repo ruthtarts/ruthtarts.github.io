@@ -1,0 +1,192 @@
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #FFFFFF;
+    --secondary-color: #0D0D0D;
+    --accent1-color: #D9BC2B;
+    --accent2-color: #DB4731;
+    --accent3-color: #595959;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Muli";
+    --paragraph-font: Oxygen, sans-serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #0D0D0D; /* headlines on a white background */
+    --headline-color-on-color: #FFFFFF; /* headlines on a colored background */
+    --paragraph-color-on-white: #0D0D0D; /* paragraph text on a white background */
+    --paragraph-color-on-color: #FFFFFF; /* paragraph text on a colored background */
+    --text-background-color: #595959;
+    --nav-link-color: #DB4731;
+    --nav-background-color: #FFFFFF;
+    --nav-hover-link-color: #FFFFFF;
+    --nav-hover-background-color: #D9BC2B;
+  }
+  
+  .colors {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .colors th {
+    background-color: #999;
+  }
+  .colors td {
+    width: 5%;
+    height: 3em;
+  }
+  
+  .primary {
+    background-color: var(--primary-color);
+  }
+  .secondary {
+    background-color: var(--secondary-color);
+  }
+  .accent1 {
+    background-color: var(--accent1-color);
+  }
+  .accent2 {
+    background-color: var(--accent2-color);
+  }
+  .accent3 {
+    background-color: var(--accent3-color);
+  }
+  
+  p.colored {
+    background-color: var(--text-background-color);
+    color: var(--paragraph-color-on-color);
+  }
+  
+  
+  nav {
+    display: flex;
+      background-color: #DB4731;
+      text-align: center;
+  }
+  nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+  }
+  nav ul li a {
+      color: #fff;
+      text-align: center;
+      padding: 0.75rem;
+      text-decoration: none;
+      font-size: 0.95rem;
+  }
+  nav a:hover {
+      background-color: #bbb;
+      color: #36454f;
+  }
+  
+  
+  .links
+    background-color: var(--nav-background-color);
+    line-height: 1em;
+    text-align: center;
+    font-size: 1em;
+    padding-bottom: 8px;
+  }
+  
+  
+  .links a {
+    padding: 1em;
+    min-width: 70px;
+  }
+  
+  .links a:link,
+  .links a:visited {
+    color: var(--nav-link-color);
+  }
+  .links a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
+  
+  
+  header, nav, main, footer {
+  margin: 2rem auto;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 760px;
+  }
+  
+  header {
+  background-color: #595959;
+  color: white;
+  text-align: center; 
+  font-family: 'Merriweather', serif;
+  padding: .1px;
+  height: 125px;
+  }
+  
+  h2
+  h4
+  h5
+  hr {
+    margin-bottom: -10px;
+  }
+  
+  body {
+      font-size: 18px;
+     }
+      
+     a {
+       color: #ac111a;
+     }
+     
+     #link {
+     color: white;
+     }
+     
+  
+  
+  footer {
+        flex: 0 1 100%;
+  font-size: 16px;
+  background-color: #595959;
+  color: white;
+  text-align: center;
+  height: 50px;
+  line-height: 1px;
+  padding-top: 13px;
+  padding-bottom: 15px;
+  
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .logo {
+    max-width: 40%;
+  }
+  
+  .headingfont {
+  font-family: 'Fjalla One', sans-serif;
+  }
+  
+  .pfont {  
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .menu {
+    display: block;
+    line-height: 2em;
+    flex-grow: 1;
+    flex-basis: 15%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 4em;
+    padding-left: 4em;
+    box-sizing: border-box;
+    &:hover {
+      background-color: #000066; 
+    }
+    & > a {
+      display: block;
+      margin: auto;
+      text-align: center;
+    }
+  
+  
