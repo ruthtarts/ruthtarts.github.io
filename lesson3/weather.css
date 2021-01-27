@@ -81,7 +81,7 @@
   }
   
   
-  .links
+  .links {
     background-color: var(--nav-background-color);
     line-height: 1em;
     text-align: center;
@@ -89,13 +89,6 @@
     padding-bottom: 8px;
   }
   
-  
-  .links a {
-    padding: 1em;
-    min-width: 70px;
-  }
-  
-  .links a:link,
   .links a:visited {
     color: var(--nav-link-color);
   }
@@ -177,13 +170,4 @@
     padding-right: 4em;
     padding-left: 4em;
     box-sizing: border-box;
-    &:hover {
-      background-color: #000066; 
-    }
-    & > a {
-      display: block;
-      margin: auto;
-      text-align: center;
-    }
-  
-  
+  }
