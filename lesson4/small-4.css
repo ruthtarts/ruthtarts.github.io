@@ -78,6 +78,8 @@ h1 h2 {
   
   nav ul.navigation {
       display: none;  
+      justify-content: center;
+      text-align: center;
   }
   
   .responsive li {
