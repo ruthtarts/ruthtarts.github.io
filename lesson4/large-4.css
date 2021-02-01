@@ -7,16 +7,15 @@
   
     nav {
       display: flex;
+      max-width: 100%;
+      width: 1000px;
+      margin: 0 auto;
     }
   
     nav ul {
       display: flex;
       flex: 1 1 auto;
       justify-content: center;
-      text-align: left;
-      max-width: 100%;
-      width: 1000px;
-      margin: 0 auto;
       overflow: hidden;
     }
     
