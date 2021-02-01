@@ -1,4 +1,5 @@
 /************* Small View **********/
+@media only screen and (min-width: 100px) and (max-width: 759px) {
 
 h1 h2 {
     font-family: "Fjalla One", sans-serif;
@@ -142,3 +143,4 @@ h1 h2 {
     display: block;
   
 }
+  }
