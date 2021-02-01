@@ -54,6 +54,8 @@ margin: 0 auto;
 }
   nav ul {
     list-style-type: none;
+    max-width: 100%;
+    width: 1000px;
   }
   
   nav ul li a {
