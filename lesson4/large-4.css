@@ -1,9 +1,6 @@
 /* Media Query for medium+ views */
-@media only screen and (min-width: 32.5em) {
-    header {
-      padding-bottom: 15px;
-      padding-top: 5px;
-    }
+@media only screen and (min-width: 32.em) {
+  
   
     nav {
       display: flex;
@@ -25,10 +22,23 @@
       text-decoration: none;
       
     }
-  
-    .navigation li:first-child{
-        display: none;
-      
-    }
+  .navigation { 
+    display: flex;
   }
   
+  .navigation li {
+    display: block; 
+    flex: 1 1 auto;
+  }
+  
+  .navigation a {
+    text-align: center;
+  }
+  
+  .navigation li:first-child {
+    display:none;
+  }
+  
+}
+  
+

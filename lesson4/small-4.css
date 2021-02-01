@@ -1,14 +1,15 @@
 /************* Small View **********/
-h1 h2 {
+
+h2 {
     font-family: "Fjalla One", sans-serif;
   }
-  
+
   h1 {
     font-weight: normal;
     font-family: "Roboto Condensed", sans-serif;
     padding-left: 1em;
   }
-  
+
   header {
     display: flex;
     width: 100%;
@@ -19,51 +20,38 @@ h1 h2 {
     text-align: center;
     margin: 0 auto;
   }
+
   
-  body {
-    font-family: "Roboto", sans-serif;
-  }
-  
-  .wrap {
-    position: relative;
-    width: 100%;
-    text-align: left;
-    padding-left: 10px;
-    margin-bottom: -2em;
-  }
-  
-  .logo {
-    max-width: 100%;
-    width: 320px;
-    padding-left: 10px;
-    margin-bottom: -25px;
-  }
-  
-  .contentbox {
-    display: block;
-    margin: 10px auto;
-    padding: 15px;
+   nav {
     background-color: #eee;
-    color: #444;
-    font-style: italic;
+margin: 0 auto;
+     display: block;
   }
+ 
+.navigation {
+  list-style: none;
+  padding: 0; 
+}
   
-  nav {
-    background-color: #eee;
-    max-width: 100%;
-  }
-  
-  .navigation {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .navigation a {
-    display: block;
-    text-decoration: none;
-    font-weight: 700;
-  }
-  
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation a {
+  display: block;
+  text-decoration: none;
+}
+
+.responsive li {
+	display: block;
+}
+.ham{
+    display:block;
+}
   nav ul {
     list-style-type: none;
   }
@@ -75,22 +63,68 @@ h1 h2 {
     text-decoration: none;
   }
   
-  nav ul.navigation {
-      display: none;  
-      justify-content: center;
-      text-align: center;
+  body {
+    font-family: "Roboto", sans-serif;
   }
-  
-  .responsive li {
+
+  .wrap {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: -2em;
+  }
+
+  .logo {
+    max-width: 100%;
+    width: 320px;
+    padding-left: 10px;
+    margin-bottom: -25px;
+  }
+
+  .contentbox {
     display: block;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: #eee;
+    color: #444;
+    font-style: italic;
   }
-  
+
+  header {
+    padding-bottom: 15px;
+    padding-top: 5px;
+  }
+
+  nav {
+  display: flex;
+	background-color: #eee;
+	text-align: center;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a {
+	color: #c13c1e;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+nav a:hover {
+	background-color: #D9BC2B;
+	color: white;
+}
+
   main {
     width: 100%;
     max-width: 950px;
     margin: 0 auto;
   }
-  
+
   footer {
     font-family: "Roboto", sans-serif;
     max-width: 950px;
@@ -101,43 +135,42 @@ h1 h2 {
     line-height: 1px;
     padding-top: 13px;
   }
-  
+
   a {
     color: #c13c1e;
   }
-  
+
   #link {
     color: #c13c1e;
   }
-  
+
   a:hover {
     color: white;
     background-color: #D9BC2B;
   }
-  
+
   .preston {
     background-color: #D9BC2B;
     text-align: center;
     text-decoration: none;
     display: inline-block;
   }
-  
-  .preston a {.responsive li {
-	display: block;
-}
-.ham{
-    display:block;
-    color: white;
-  }
-  
-  .responsive li {
-	display: block;
-}
-.ham{
-    display:block;
-}
 
-.navigation li:first-child{
-    display: block;
-  
+  .preston a {
+    .responsive li {
+      display: block;
+    }
+    .ham {
+      display: block;
+      color: white;
+    }
+
+    .responsive li {
+      display: block;
+    }
+    .ham {
+      display: block;
+    }
+
+  }
 }
