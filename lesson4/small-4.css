@@ -121,13 +121,17 @@ h1 h2 {
     display: inline-block;
   }
   
-  .preston a {
+  .preston a {.responsive li {
+	display: block;
+}
+.ham{
+    display:block;
     color: white;
   }
   
-  nav button {
-      background-color: transparent;
-      border: none;
-      font-weight: bold;
-      color: #c13c1e;
-  }
+  .responsive li {
+	display: block;
+}
+.ham{
+    display:block;
+}
