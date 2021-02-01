@@ -1,0 +1,32 @@
+/* Media Query for medium+ views */
+@media only screen and (min-width: 32.5em) {
+    header {
+      padding-bottom: 15px;
+      padding-top: 5px;
+    }
+  
+    nav {
+      display: flex;
+    }
+  
+    nav ul {
+      display: flex;
+      flex: 1 1 auto;
+      justify-content: space-evenly;
+      text-align: left;
+      max-width: 100%;
+      width: 1000px;
+      margin: 0 auto;
+    }
+    
+    nav a {
+      text-decoration: none;
+      
+    }
+  
+  
+    nav button {
+      display: none;
+    }
+  }
+  
