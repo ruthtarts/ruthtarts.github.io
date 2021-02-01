@@ -30,5 +30,10 @@
     nav button {
       display: none;
     }
+
+    .navigation li:first-child{
+        display: none;
+      
+    }
   }
   
