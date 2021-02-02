@@ -51,7 +51,7 @@ nav a:hover {
 }
 
 .navigation {
-  display: flex;
+  display: block;
   list-style: none;
   padding: 0;
 }

@@ -19,6 +19,9 @@
     text-decoration: none;
   }
 
+  .navigation {
+    display: flex;
+  }
  
   .navigation li {
     display: block;
@@ -28,7 +31,8 @@
   .navigation li:first-child {
     display: none;
   }
-    
+  
+
   
 }
   
