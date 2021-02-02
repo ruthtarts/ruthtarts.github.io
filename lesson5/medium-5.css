@@ -1,0 +1,8 @@
+/*******Medium View*************/
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+        header {
+          justify-items: center;
+          text-align: center;
+        }
+      }

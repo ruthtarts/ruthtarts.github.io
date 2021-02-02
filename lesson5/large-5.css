@@ -1,0 +1,35 @@
+/* Media Query for medium+ views */
+@media only screen and (min-width: 760px) {
+  nav {
+    display: flex;
+    flex: 1 1 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  nav ul {
+    display: flex;
+    margin: 0;
+    justify-content: space-evenly;
+    width: 1000px;
+    margin: 0 auto;
+      }
+
+  nav a {
+    text-decoration: none;
+  }
+
+ 
+  .navigation li {
+    display: block;
+    width: 130px;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+    
+  
+}
+  
+
