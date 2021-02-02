@@ -11,7 +11,8 @@
   nav ul {
     display: flex;
     margin: 0;
-    max-width: 1000px;
+    margin-left: 28em;
+    justify-content: space-evenly;
       }
 
   nav a {
