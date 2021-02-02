@@ -134,4 +134,5 @@ footer {
 .date {
   font-size: small;
   font-weight: 500;
+  top-margin: 5px;
 }
