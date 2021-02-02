@@ -48,13 +48,11 @@ h2 {
   .responsive li {
     display: block;
   }
-  .ham {
-    display: block;
-  }
+
   nav ul {
     list-style-type: none;
-    max-width: 100%;
-    width: 1000px;
+    max-width: 1000px;
+    width: 100%;
   }
   
   nav ul li a {
