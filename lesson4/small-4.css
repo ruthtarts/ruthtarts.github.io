@@ -145,12 +145,10 @@ h2 {
     background-color: #D9BC2B;
   }
   
- /* .preston {
+  .preston {
     background-color: #D9BC2B;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  } */
+    color: white;
+  } 
   
     .responsive li {
       display: block;
