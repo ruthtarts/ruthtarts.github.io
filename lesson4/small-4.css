@@ -30,6 +30,7 @@ h2 {
   .navigation {
     list-style: none;
     padding: 0;
+    margin: 0 auto;
   }
   
   .navigation li:first-child {
