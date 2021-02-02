@@ -19,6 +19,8 @@ h2 {
     justify-items: center;
     text-align: center;
     margin: 0 auto;
+    padding-bottom: 15px;
+    padding-top: 5px;
   }
   
   nav {
@@ -86,12 +88,7 @@ h2 {
     color: #444;
     font-style: italic;
   }
-  
-  header {
-    padding-bottom: 15px;
-    padding-top: 5px;
-  }
-  
+
 
   nav ul {
     list-style-type: none;
