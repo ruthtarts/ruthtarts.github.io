@@ -98,7 +98,7 @@ h2 {
     display: flex;
     background-color: #eee;
     text-align: center;
-    font-weight: 500;
+    font-weight: bold;
   }
   nav ul {
     list-style-type: none;
