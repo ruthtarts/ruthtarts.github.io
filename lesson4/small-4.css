@@ -29,8 +29,6 @@ h2 {
   
   .navigation {
     list-style: none;
-    padding: 0;
-    margin: 0 auto;
   }
   
   .navigation li:first-child {
@@ -145,6 +143,11 @@ h2 {
   }
   
   a:hover {
+    color: white;
+    background-color: #D9BC2B;
+  }
+
+  a:active {
     color: white;
     background-color: #D9BC2B;
   }
