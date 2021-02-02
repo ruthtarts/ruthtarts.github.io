@@ -4,21 +4,22 @@
     display: flex;
     flex: 1 1 100%;
     max-width: 100%;
-    margin: 0 auto;
     padding: 0;
   }
 
   nav ul {
     display: flex;
     margin: 0;
-    margin-left: 28em;
     justify-content: space-evenly;
+    width: 1000px;
+    margin: 0 auto;
       }
 
   nav a {
     text-decoration: none;
   }
 
+ 
   .navigation li {
     display: block;
     width: 130px;
@@ -27,4 +28,8 @@
   .navigation li:first-child {
     display: none;
   }
+    
+  
 }
+  
+
