@@ -9,7 +9,6 @@
 
   nav ul {
     display: flex;
-    margin: 0;
     justify-content: space-evenly;
     width: 1000px;
     margin: 0 auto;
@@ -19,6 +18,11 @@
     text-decoration: none;
   }
 
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
   .navigation {
     display: flex;
   }
@@ -30,11 +34,6 @@
 
   .navigation li:first-child {
     display: none;
-  }
-
-  body {
-    margin: 0;
-    padding: 0;
   }
 
   .hero-box {
@@ -117,13 +116,13 @@
     max-width: 950px;
     margin: 0 auto;
   }
-  
-  .footer2 {
 
-  }
-  
   .address {
   font-size: 16px;
+}
+  
+  .pancakebanner { 
+  width: 700px;
 }
   
 }
