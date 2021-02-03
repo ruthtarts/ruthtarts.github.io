@@ -3,13 +3,14 @@
 h2 {
   font-family: "Fjalla One", sans-serif;
   font-weight: normal;
+  margin-bottom: -0.5px;
 }
 
 h1 {
   font-weight: normal;
   font-family: "Roboto Condensed", sans-serif;
   padding-left: 1em;
-  padding-top: .5em;
+  padding-top: 0.5em;
 }
 
 header {
@@ -51,7 +52,7 @@ nav a:hover {
 }
 
 .navigation {
-  display: flex;
+  display: block;
   list-style: none;
   padding: 0;
 }
@@ -85,7 +86,6 @@ a {
   color: #333333;
 }
 
-
 main {
   width: 100%;
   max-width: 950px;
@@ -94,6 +94,7 @@ main {
 
 body {
   font-family: "Roboto", sans-serif;
+  padding: 15px;
 }
 
 .wrap {
@@ -117,16 +118,15 @@ body {
   padding: 15px;
   background-color: #eee;
   color: #444;
-  font-style: italic;
 }
 
-footer {
+.lastsection {
   font-family: "Roboto", sans-serif;
   max-width: 950px;
   margin: 2em auto;
   text-align: center;
   background-color: #eee;
-  height: 70px;
+  height: 400px;
   line-height: 1px;
   padding-top: 15px;
 }
@@ -136,3 +136,65 @@ footer {
   font-weight: 500;
   padding-top: 5px;
 }
+
+.hero-box img {
+  max-width: 100%;
+  width: 950px;
+}
+
+.forecastimgs img {
+  display: none;
+}
+
+.fiveday {
+  display: none;
+}
+
+.fiveday-2 {
+  display: flex;
+  text-align: center;
+}
+
+.fairp {
+  text-align: justify;
+}
+
+.franklin-fair {
+  display: none;
+}
+
+.franklin-fair2 {
+  max-width: 100%;
+  width: 250px;
+}
+
+.articlebox {
+  padding-left: 25px;
+  padding-right: 20px;
+}
+
+
+.contact {
+  text-align: left;
+  margin: 30px;
+  line-height: 2px;
+}
+
+  .map {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+
+.social img{
+  max-width: 100%;
+  width: 30px;
+  padding: 5px;
+  margin-bottom: -1.3em;
+}
+
+.contact {
+  text-align: justify;
+}
+
+
