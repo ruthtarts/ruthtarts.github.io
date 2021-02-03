@@ -120,7 +120,7 @@ body {
   color: #444;
 }
 
-.lastsection {
+footer {
   font-family: "Roboto", sans-serif;
   max-width: 950px;
   margin: 2em auto;
@@ -129,6 +129,7 @@ body {
   height: 400px;
   line-height: 1px;
   padding-top: 15px;
+  margin-bottom: -1px;
 }
 
 .date {
@@ -197,4 +198,14 @@ body {
   text-align: justify;
 }
 
+.footer2 {
+  background-color: #595959;
+  color: white;
+  height: 50px;
+  text-align: center;
+  line-height: .1px;
+  margin-top: -15px;
+  padding: 2px;
+    
+}
 

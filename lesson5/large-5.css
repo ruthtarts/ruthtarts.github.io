@@ -88,9 +88,10 @@
   }
  
   footer {
-    height: 100px;
+    display: flex;
+    height: 250px;
     margin-top: -.1px;
-    width: 100%;
+    max-width: 100%;
   }
   
   .map {
@@ -103,16 +104,14 @@
   
   .contact {
   display: inline-block;
-  float: right;
   padding: 10px;
     
   }
-  
-  .lastsection {
-    height: 250px;
-  }
-  
 
+  .lastsection {
+    max-width: 950px;
+    margin: 0 auto;
+  }
   
 }
  
