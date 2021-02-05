@@ -144,7 +144,7 @@ footer {
 }
 
 .forecastimgs img {
-  display: none;
+  max-width: 18%;
 }
 
 .fiveday {
