@@ -1,8 +1,8 @@
-let today = new Date();
+let todayBanner = new Date();
 
 window.onload = function bannerLoad() { 
 
-if (today.getDay() == 5 ) {
+if (todayBanner.getDay() == 5 ) {
   document.getElementById("my_banner").style.display = "block";
   
 }
