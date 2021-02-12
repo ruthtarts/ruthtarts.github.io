@@ -6,11 +6,7 @@
           text-align: center;
         }
         .forecastimgs img {
-          max-width: 30%;
-        }
-
-        .forecastimgs img {
-          max-width: 25%;
+          max-width: 20%;
         }
 
       }
