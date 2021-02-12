@@ -42,7 +42,7 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.hero-box img {
+.week6hero {
   grid-column: 1 / -1;
   grid-row: 1;
 }
