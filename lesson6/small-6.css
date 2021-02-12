@@ -25,6 +25,10 @@ header {
   padding-top: 5px;
 }
 
+header figure.logo {
+  float: left;
+}
+
 nav {
   display: flex;
   background-color: #eee;
