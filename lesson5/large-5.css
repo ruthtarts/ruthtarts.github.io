@@ -1,5 +1,5 @@
 /* Media Query for medium+ views */
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 950px) {
   nav {
     display: flex;
     flex: 1 1 100%;
