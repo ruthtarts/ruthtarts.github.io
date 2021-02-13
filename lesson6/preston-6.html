@@ -54,20 +54,16 @@
 
       <h2>Preston Idaho</h2>
       <div class="hero-box">
-        <img 
-        alt="alt text image" 
-        src="/lesson6/images/W06Image2.jpg" 
-        srcset=" 
-           /lesson6/images/W06Image3.jpg 600w, 
-           /lesson6/images/W06Image2.jpg 700w, 
-           /lesson6/images/W06Image1.jpg 950w 
-        " 
-        sizes=" 
-           (min-width: 1366px) 700px, 
-           (min-width: 1536px) 950px, 
-           100vw
-        " 
-     >
+
+        <picture>
+          <source srcset="https://cdn.glitch.com/29bd0add-3deb-4f4e-abf0-f76fafa0b67c%2FW06Image3.jpeg?v=1613172275558 600w"
+                  sizes="(max-width: 600px) 100vw">
+          <source srcset="https://cdn.glitch.com/29bd0add-3deb-4f4e-abf0-f76fafa0b67c%2FW06Image2.jpg?v=1613172270220 700w"
+                  sizes="(min-width: 601px) and (max-width: 849px) 50vw">
+          <source srcset="https://cdn.glitch.com/29bd0add-3deb-4f4e-abf0-f76fafa0b67c%2FW06Image1.jpg?v=1613172117815 950w"
+                  sizes="(min-width: 850px) 25vw">
+          <img src="https://cdn.glitch.com/29bd0add-3deb-4f4e-abf0-f76fafa0b67c%2FW06Image3.jpeg?v=1613172275558 " alt="Week 6 Hero">
+        </picture>
 
        <!--  <img 
         class="week6hero"
