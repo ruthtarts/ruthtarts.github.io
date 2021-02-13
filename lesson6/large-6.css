@@ -37,7 +37,7 @@
   }
 
   .hero-box {
-  width: 950px;
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -45,6 +45,10 @@
 .hero-box img {
   grid-column: 1 / -1;
   grid-row: 1;
+}
+
+.week6hero {
+  max-width: 950px;
 }
 
 .summary {
