@@ -37,7 +37,7 @@
   }
 
   .hero-box {
-  width: 100%;
+  width: 950px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
