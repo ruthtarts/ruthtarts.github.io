@@ -223,4 +223,12 @@ footer {
 
 }
 
+.hero-box img {
+  max-width: 100%;
+}
+
+  .week6hero {    
+  grid-column: 1 / -1;
+  grid-row: 1;
+  }  
 
