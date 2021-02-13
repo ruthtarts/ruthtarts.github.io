@@ -223,7 +223,8 @@ footer {
 
 }
 
-.week6hero {
-  max-width: 600px;
-}
+.week6hero {    
+  grid-column: 1 / -1;
+  grid-row: 1;
+  }  
 
