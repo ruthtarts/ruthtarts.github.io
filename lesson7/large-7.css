@@ -129,6 +129,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
+    max-width: 950px;
 }
 
 
