@@ -237,7 +237,7 @@ h2 {
         filter: blur(0.2em);
     }
     
-    figcaption {
+    .weathergallery figcaption {
         font-size: 15px;
         font-family: "Roboto", sans-serif;
     }
@@ -253,5 +253,11 @@ h2 {
     .weathergallery img {
         filter: blur(0em);
         transition: filter 0.5s;
+        max-width: 100%;
+    }
+
+    .weathergallery {
+        display: grid;
+        justify-content: center;
     }
 
