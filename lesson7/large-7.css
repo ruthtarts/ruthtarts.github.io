@@ -124,6 +124,16 @@
     .pancakebanner { 
     width: 700px;
   }
+
+  .weathergallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    grid-auto-rows: 200px;
+    justify-content: center;
+}
+
+
     
   }
    
