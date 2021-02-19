@@ -129,12 +129,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
-    width: 950px;
+    width: 1050px;
 }
 
-.weathergallery img {
-    max-width: 50%;
-}
 
 
     
