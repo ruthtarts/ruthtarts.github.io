@@ -232,12 +232,7 @@ h2 {
     grid-row: 1;
     }  
   
-    body {
-        font-family: "Fjalla One", sans-serif;
-        font-weight: normal;
-        text-align: center;
-    }
-    
+  
     .gallery img[data-src] {
         filter: blur(0.2em);
     }
