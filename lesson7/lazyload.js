@@ -1,4 +1,4 @@
-let imagesToLoad = document.querySelectorAll('img[dta-src]');
+let imagesToLoad = document.querySelectorAll('img[data-src]');
 
 let imgOptions = {
     threshold: 0,
