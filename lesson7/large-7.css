@@ -127,9 +127,10 @@
 
   .weathergallery {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-auto-rows: 500px;
     justify-content: center;
-    width: 1050px;
 }
 
 
