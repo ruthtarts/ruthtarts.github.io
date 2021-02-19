@@ -255,9 +255,3 @@ h2 {
         transition: filter 0.5s;
     }
 
-    .weathergallery {
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-content: center;
-    }
-
