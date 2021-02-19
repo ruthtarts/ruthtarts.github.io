@@ -12,7 +12,6 @@ const loadImages = (image) => {
         image.removeAttribute('data-src');
 
     }
-}
 
 if ('IntersectionObserver' in window {
     const imgObserver = new IntersectionObserver((items, observer) => {
@@ -34,4 +33,3 @@ if ('IntersectionObserver' in window {
     imagesToLoad.forEach((img) => {
         loadImages(img);
     })
-}
