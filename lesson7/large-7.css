@@ -128,7 +128,7 @@
   .weathergallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 5px;
+    grid-gap: 1px;
     justify-content: center;
 }
 
