@@ -132,6 +132,10 @@
     width: 950px;
 }
 
+.weathergallery img {
+    max-width: 50%;
+}
+
 
     
   }
