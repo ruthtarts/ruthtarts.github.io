@@ -5,7 +5,7 @@ body {
 }
 
 .gallery img[data-src] {
-    fliter: blur(0.2em);
+    filter: blur(0.2em);
 }
 
 figcaption {
@@ -15,8 +15,8 @@ figcaption {
 
 .gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
     grid-auto-rows: 500px;
     justify-content center;
 }
@@ -24,10 +24,9 @@ figcaption {
 .gallery img {
     filter: blur(0em);
     transition: filter 0.5s;
-    border-radius: 50px;
 }
 
 .gallery figure:hover {
-    box-shadow: 0 0 40px #298324
+    box-shadow: 0 0 40px #BBB
 }
 
