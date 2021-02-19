@@ -249,6 +249,7 @@ h2 {
         grid-auto-rows: 500px;
         justify-content: center;
     }
+
     
     .weathergallery img {
         filter: blur(0em);
@@ -260,4 +261,5 @@ h2 {
         display: grid;
         justify-content: center;
     }
+
 
