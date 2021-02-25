@@ -146,6 +146,7 @@ footer {
 
 .forecastimgs img {
   max-width: 18%;
+  padding-left: 3px;
 }
 
 .fiveday {
