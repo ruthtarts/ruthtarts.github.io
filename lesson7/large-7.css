@@ -93,22 +93,21 @@
    
     footer {
       display: flex;
-      height: 250px;
+      height: 230px;
       margin-top: -.1px;
       max-width: 100%;
     }
     
-    .map {
+    .prestonmap {
       display: flex;
       float: left;
       max-width: 50%;
       padding: 40px;
-      margin-top: -20px;
+      margin-top: -30px;
     }
     
     .contact {
     display: inline-block;
-    padding: 10px;
       
     }
   
