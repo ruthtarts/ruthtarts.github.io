@@ -87,7 +87,7 @@
 
         <fieldset>
           <legend>Storm Information</legend>
-          <label class="top">Storm Date<input type="date" name="date" required /></label><br>
+          <label class="top">Storm Date<span class="req"> (required)</span><input type="date" name="date" required /></label><br>
           <label class="top" for="storm">Storm Type</label>
           <input list="storms" name="storm" id="storm" />
           <datalist id="storms">
@@ -162,7 +162,7 @@
         <fieldset>
           <legend>Additional Information or Comments:</legend>
           <label>
-            <textarea id="additional" name="additional" rows="4" cols="50">
+            <textarea id="additional" name="additional" rows="4" cols="30">
             </textarea>
           </label>
         </fieldset>
