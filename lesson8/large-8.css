@@ -1,0 +1,66 @@
+/* Media Query for large views */
+@media only screen and (min-width: 950px) {
+    nav {
+      display: flex;
+      flex: 1 1 100%;
+      max-width: 100%;
+      padding: 0;
+    }
+  
+    nav ul {
+      display: flex;
+      justify-content: space-evenly;
+      width: 1000px;
+      margin: 0 auto;
+    }
+  
+    nav a {
+      text-decoration: none;
+    }
+  
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    
+    .navigation {
+      display: flex;
+    }
+    
+    .navigation li {
+      display: block;
+      width: 130px;
+    }
+  
+    .navigation li:first-child {
+      display: none;
+    }
+  
+   
+    footer {
+      display: flex;
+      height: 230px;
+      margin-top: -.1px;
+      max-width: 100%;
+    }
+    
+    .prestonmap {
+      display: flex;
+      float: left;
+      max-width: 50%;
+      padding: 40px;
+      margin-top: -30px;
+    }
+    
+    .contact {
+    display: inline-block;
+      
+    }
+  
+    .lastsection {
+      max-width: 950px;
+      margin: 0 auto;
+    }
+  
+
+}
