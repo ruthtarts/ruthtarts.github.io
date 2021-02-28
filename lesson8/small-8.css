@@ -204,7 +204,7 @@ form {
 
   form label.top input, form label.top select {
       display: block;
-      border: solid 1p #999;
+      border: solid 1px #999;
       padding: .75rem;
       width: 80%;
   }
