@@ -228,3 +228,11 @@ form {
   .comments {
     max-width: 100%;
   }
+
+  form input.submitBtn {
+    border: none;
+    background-color: #c13c1e;
+    color: white;
+    border-radius: 5px;
+    padding: .75rem;
+  }
