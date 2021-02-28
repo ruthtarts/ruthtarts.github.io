@@ -207,6 +207,7 @@ form {
       border: solid 1px #999;
       padding: .75rem;
       width: 80%;
+      background-color: #f8f8f8;
   }
 
   .indanger {
