@@ -236,3 +236,12 @@ form {
     border-radius: 5px;
     padding: .75rem;
   }
+
+  form label.top input:required {
+    border-left: #c13c1e solid 6px;
+  }
+
+  form label.top input:required:valid {
+
+    border-left: green solid 6px;
+  }
