@@ -1,0 +1,30 @@
+/************* Small View **********/
+
+  
+  h1 {
+    font-weight: normal;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+  }
+  
+  header {
+    display: block;
+    width: 100%;
+    font-size: 30px;
+  }
+  
+  .wfgrid {
+    display: flex;
+    margin: 15px;
+  }
+
+  img {
+      display: block;
+      height: 1000px;
+      box-shadow: grey 0 0 15px;
+  }
+
+  p {
+      margin: 12px;
+  }
+
