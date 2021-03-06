@@ -36,17 +36,39 @@
       display: none;
     }
   
-    .hero-box {
+    .week6hero {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
   
   .hero-box img {
-    max-width: 100%;
+    grid-column: 1 / -1;
+    grid-row: 1;
+  }
+
+  .action {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: rgba(240, 240, 240, 0.8);
+    margin-top: 70px;
+    margin-left: 20px;
+    padding: 50px;
+    padding-top: 20px;
+    text-align: center;
+    height: 110px;
+    width: 275px;
+    font-size: 20px;
   }
   
+  .action button {
+    line-height: 2em;
+    width: 8em;
+    background-color: #e7c24f;
+    font-size: 1.2em;
+  }
   
+    
   .summary {
     grid-column: 1;
     grid-row: 1;
