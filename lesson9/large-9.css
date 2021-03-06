@@ -1,4 +1,6 @@
-/* Media Query for medium+ views */
+/*****Large View*****/
+
+
 @media only screen and (min-width: 950px) {
     nav {
       display: flex;
@@ -139,9 +141,13 @@
     .address {
     font-size: 16px;
   }
-    
-  
-    
+
+
+  .popcorn2 {
+      display: none;
+  }
+
+
   }
    
   
