@@ -143,10 +143,17 @@
   }
 
 
-  .popcorn2 {
-      display: none;
-  }
+.popcorn {
+  display: none;
+}
 
+.popcorn2 {
+  display: block;
+}
+
+.popcorn3 {
+   display: none;
+}
 
   }
    

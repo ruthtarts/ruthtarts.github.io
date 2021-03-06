@@ -1,6 +1,6 @@
 /*******Medium View*************/
 
-@media only screen and (min-width: 601px)  {
+@media only screen and (min-width: 601px) and (max-width: 949px)  {
     header {
       justify-items: center;
       text-align: center;
@@ -11,9 +11,17 @@
     grid-row: 1;
     }
 
-.popcorn1 {
-  display: none;
-}
+    .popcorn {
+      display: flex;
+    }
+
+    .popcorn2 {
+      display: none;
+    }
+
+    .popcorn3 {
+      display: none;
+    }
 
 }
 

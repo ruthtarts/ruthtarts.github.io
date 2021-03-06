@@ -248,9 +248,16 @@ h2 {
       line-height: 30px;
   }
 
-.popcorn1 {
+  .popcorn {
     display: none;
-}
+  }
+
+  .popcorn2 {
+    display: none;
+  }
+
+ 
+
 
 
 
