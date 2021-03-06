@@ -15,7 +15,7 @@ fetch(requestURL)
             let h2 = document.createElement('h2');
             let p = document.createElement('p');
             let photo = document.createElement('img');
-            let townMotto = document.createElement('div');
+            let townMotto = document.createElement('h4');
             let yearFounded = document.createElement('div');
             let currentPopulation = document.createElement('div');
             let averageRainfall = document.createElement('div');
@@ -28,6 +28,8 @@ fetch(requestURL)
             
             photo.setAttribute('src', towns[i].photo);
             photo.setAttribute('alt', towns[i].name);
+
+            
 
             area.appendChild(h2);
             area.appendChild(p);
