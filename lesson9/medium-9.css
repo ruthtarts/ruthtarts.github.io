@@ -64,20 +64,13 @@
   .lastsection {
     margin-left: 30px;
   }
-  
-  .areas section {
+
+  area {
+    max-width: 600px;
+    margin: 0 auto;
     display: flex;
-    align-items: center;
-    width: 700px;
+    flex-wrap: wrap;
   }
-
-  .areas section:nth-child(odd) {
-    flex-direction: row-reverse;
-    justify-items: center;
-  }
-
   
-
-
-
 }
+

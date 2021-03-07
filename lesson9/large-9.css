@@ -37,31 +37,32 @@
     .navigation li:first-child {
       display: none;
     }
-  
-    .week6hero {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  
-  .hero-box img {
-    grid-column: 1 / -1;
-    grid-row: 1;
-  }
+
+    .hero-box {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    
+    .hero-box img {
+      grid-column: 1 / -1;
+      grid-row: 1;
+    }
 
   .action {
-    grid-column: 1;
-    grid-row: 1;
+    display: inline-block;
     background-color: rgba(240, 240, 240, 0.8);
     color: black;
-    margin-top: 70px;
     margin-left: 20px;
-    padding: 50px;
-    padding-top: 20px;
+    margin-top: 50px;
     text-align: center;
-    height: 110px;
+    height: 150px;
     width: 275px;
     font-size: 20px;
+  }
+
+  .action h3 {
+    line-height: 3em;
   }
   
   .action button {
@@ -70,6 +71,7 @@
     background-color: #d9bc2b;
     font-size: 1.2em;
     font-weight: normal;
+    margin-top: -8em;
   }
   
     
