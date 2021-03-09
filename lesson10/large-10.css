@@ -1,0 +1,173 @@
+/*****Large View*****/
+
+
+@media only screen and (min-width: 950px) {
+    nav {
+      display: flex;
+      flex: 1 1 100%;
+      max-width: 100%;
+      padding: 0;
+    }
+  
+    nav ul {
+      display: flex;
+      justify-content: space-evenly;
+      width: 1000px;
+      margin: 0 auto;
+    }
+  
+    nav a {
+      text-decoration: none;
+    }
+  
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    
+    .navigation {
+      display: flex;
+    }
+    
+    .navigation li {
+      display: block;
+      width: 130px;
+    }
+  
+    .navigation li:first-child {
+      display: none;
+    }
+
+    .hero-box {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    
+    .hero-box img {
+      grid-column: 1 / -1;
+      grid-row: 1;
+    }
+
+  .action {
+    display: inline-block;
+    background-color: rgba(240, 240, 240, 0.8);
+    color: black;
+    margin-left: 20px;
+    margin-top: 60px;
+    text-align: center;
+    height: 150px;
+    width: 275px;
+    font-size: 20px;
+  }
+
+  .action h3 {
+    line-height: 3em;
+  }
+  
+  .action button {
+    line-height: 2em;
+    width: 8em;
+    background-color: #d9bc2b;
+    font-size: 1.2em;
+    font-weight: normal;
+    margin-top: -8em;
+  }
+  
+    
+  .summary {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: rgba(240, 240, 240, 0.8);
+    margin: 3em;
+    padding: 1em;
+    text-align: center;
+    font-size: 0.9em;
+    padding-bottom: 70px;
+    height: 130px;
+    max-width: 220px;
+  }
+    
+    .fiveday {
+      display: flex;
+      margin-bottom: -5px;
+    }
+    
+    .fiveday-2 {
+      display: none;
+    }
+    
+  .forecastimgs img {
+    display: inline-block;
+    max-width: 100%;
+    margin-right: 30px;
+    padding-left: 20px;
+  }
+   
+    .franklin-fair {
+    display: flex;
+    max-width: 100%;
+    float: right;
+    margin-top: -30px;
+    padding-left: 10px;
+    padding-right: 20px;
+    }
+       
+    .franklin-fair2 {
+    display: none;
+    }
+   
+    footer {
+      display: flex;
+      height: 230px;
+      max-width: 100%;
+    }
+    
+    .prestonmap {
+      display: flex;
+      float: left;
+      max-width: 50%;
+      padding: 40px;
+      margin-top: -25px;
+    }
+    
+    .contact {
+    display: inline-block;
+    padding: 10px;
+      
+    }
+  
+    .lastsection {
+      max-width: 950px;
+      margin: 0 auto;
+    }
+  
+    .address {
+    font-size: 16px;
+  }
+
+  .areas {
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;  
+    width: 950px;
+
+  }
+
+.popcorn {
+  display: none;
+}
+
+.popcorn2 {
+  display: block;
+  margin-top: 30px;
+}
+
+.popcorn3 {
+   display: none;
+}
+
+  }
+   
+  
+  
