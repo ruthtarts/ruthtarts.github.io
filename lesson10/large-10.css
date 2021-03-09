@@ -1,4 +1,4 @@
-/* Media Query for medium+ views */
+/* Media Query for Large views */
 @media only screen and (min-width: 950px) {
     nav {
       display: flex;
@@ -55,8 +55,8 @@
     padding: 1em;
     text-align: center;
     font-size: 0.9em;
-    padding-bottom: 70px;
-    height: 130px;
+    padding-bottom: 200px;
+    height: 210px;
     max-width: 220px;
   }
     
