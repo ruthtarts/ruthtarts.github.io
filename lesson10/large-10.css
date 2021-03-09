@@ -1,6 +1,4 @@
-/*****Large View*****/
-
-
+/* Media Query for medium+ views */
 @media only screen and (min-width: 950px) {
     nav {
       display: flex;
@@ -37,44 +35,18 @@
     .navigation li:first-child {
       display: none;
     }
-
+  
     .hero-box {
-      width: 100%;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-    }
-    
-    .hero-box img {
-      grid-column: 1 / -1;
-      grid-row: 1;
-    }
-
-  .action {
-    display: inline-block;
-    background-color: rgba(240, 240, 240, 0.8);
-    color: black;
-    margin-left: 20px;
-    margin-top: 60px;
-    text-align: center;
-    height: 150px;
-    width: 275px;
-    font-size: 20px;
-  }
-
-  .action h3 {
-    line-height: 3em;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
   
-  .action button {
-    line-height: 2em;
-    width: 8em;
-    background-color: #d9bc2b;
-    font-size: 1.2em;
-    font-weight: normal;
-    margin-top: -8em;
+  .hero-box img {
+    max-width: 100%;
   }
   
-    
+  
   .summary {
     grid-column: 1;
     grid-row: 1;
@@ -145,28 +117,9 @@
     .address {
     font-size: 16px;
   }
-
-  .areas {
-    display: grid;  
-    grid-template-columns: 1fr 1fr 1fr;
-    text-align: center;  
-    width: 950px;
-
-  }
-
-.popcorn {
-  display: none;
-}
-
-.popcorn2 {
-  display: block;
-  margin-top: 30px;
-}
-
-.popcorn3 {
-   display: none;
-}
-
+    
+  
+    
   }
    
   
