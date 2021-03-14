@@ -18,9 +18,9 @@
     href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400&display=swap"
     rel="stylesheet"
   />
-    <link rel="stylesheet" href="/lesson6/small-6.css" />
-    <link rel="stylesheet" href="/lesson6/large-6.css" />
-    <link rel="stylesheet" href="/lesson6/medium-6.css" />
+    <link rel="stylesheet" href="/lesson10/small-10.css" />
+    <link rel="stylesheet" href="/lesson10/large-10.css" />
+    <link rel="stylesheet" href="/lesson10/medium-10.css" />
     <link rel="stylesheet" href="/lesson6/normalize.css" />
     <link rel="shortcut icon" href="/lesson6/images/favicon.ico">
 
@@ -63,12 +63,12 @@
       </picture>
          <div class="summary">
           <h3>Weather Summary</h3>
-          <p>Current Conditions: <span id="current"></span></p>
-          <p>Currently: <span id="current-temp"></span>&deg; F</p>
-          <p>High: <span id="high-temp"></span>&deg; F</p></p>
-          <p>Wind Chill: <span id="wind-chill"></span>&deg; F</p>
-          <p>Humidity: <span id="humid"></span> %</p>
-          <p>Wind Speed: <span id="wind-speed"></span> mph</p>
+          <p><strong>Current Conditions:</strong> <span id="current-cond"></span></p>
+          <p><strong>Currently:</strong> <span id="current-temp"></span>&deg; F</p>
+          <p><strong>High:</strong> <span id="high-temp"></span>&deg; F</p></p>
+          <p><strong>Wind Chill:</strong> <span id="wind-chill"></span>&deg; F</p>
+          <p><strong>Humidity:</strong> <span id="humid"></span> %</p>
+          <p><strong>Wind Speed:</strong> <span id="wind-speed"></span> mph</p>
         </div>
       </div>
       <div class="contentbox-forecast">
@@ -77,27 +77,26 @@
       <div class="contentbox">
         <h3 class="fiveday-2">5 Day Forecast</h3>
         <div class="forecastimgs">
-          <img
-            src="/lesson5/images/forecast1.jpg"
-            alt="7/7 Forecast"
-          />
-          <img
-            src="/lesson5/images/forecast2.jpg"
-            alt="7/8 Forecast"
-          />
-          <img
-            src="/lesson5/images/forecast3.jpg"
-            alt="7/9 Forecast"
-          />
-          <img
-            src="/lesson5/images/forecast4.jpg"
-            alt="7/10 Forecast"
-          />
-          <img
-            src="/lesson5/images/forecast5.jpg"
-            alt="7/11 Forecast"
-          />
+          <table class ="forecast">
+                <tr>
+                <th><span id="day1"></span></th>
+                <th><span id="day2"></span></th>
+                <th><span id="day3"></span></th>
+                <th><span id="day4"></span></th>
+                <th><span id="day5"></span></th>
+            </tr>
+            <tr>
+                <td><span id="img1"></span> &nbsp; <img src="#" alt="" id="icon1"></span> <span id="temp1"></span>&deg;F</td>
+                <td><span id="img2"></span> &nbsp; <img src="#" alt="" id="icon2"></span> <span id="temp2"></span>&deg;F</td>
+                <td><span id="img3"></span> &nbsp; <img src="#" alt="" id="icon3"></span> <span id="temp3"></span>&deg;F</td>
+                <td><span id="img4"></span> &nbsp; <img src="#" alt="" id="icon4"></span> <span id="temp4"></span>&deg;F</td>
+                <td><span id="img5"></span> &nbsp; <img src="#" alt="" id="icon5"></span> <span id="temp5"></span>&deg;F</td>
+            </tr>
+        </table>
         </div>
+      </div>
+ 
+
       </div>
       <div class="contentbox">
         <div class="articlebox">
@@ -167,9 +166,8 @@
         The Preston Buzz
       </p>
       <p class="date">
-        <script src="weatherapi.js"></script>
+     <script src="weatherapi.js"></script> 
         <script src="/lesson6/currentdate.js"></script>
-        <script src="/lesson6/windchill.js"></script>
       </p>
       </div>
       <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>

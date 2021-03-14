@@ -51,13 +51,12 @@
     grid-column: 1;
     grid-row: 1;
     background-color: rgba(240, 240, 240, 0.8);
-    margin: 3em;
-    padding: 1em;
+    margin: 2em;
     text-align: center;
     font-size: 0.9em;
     padding-bottom: 200px;
-    height: 210px;
-    max-width: 220px;
+    height: 50px;
+    max-width: 270px;
   }
     
     .fiveday {
@@ -74,6 +73,7 @@
     max-width: 100%;
     margin-right: 30px;
     padding-left: 20px;
+    
   }
    
     .franklin-fair {
@@ -117,10 +117,8 @@
     .address {
     font-size: 16px;
   }
-    
-  
-    
-  }
    
-  
-  
+  .forecast img{
+    margin: 0;
+  }
+}
