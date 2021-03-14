@@ -231,4 +231,18 @@ h2 {
     grid-row: 1;
     }  
   
+    
+    table {
+      max-width: 1000px;
+      margin-right: auto;
+      margin-left: auto;
+      border-collapse: collapse;
+    }
+    th {
+      background-color: #c13c1e;
+      color: #ebebd3ff; 
+    }
+    td {
+      background-color: white;
+    }
   
