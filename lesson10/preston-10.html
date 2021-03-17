@@ -64,10 +64,10 @@
          <div class="summary">
           <h3>Weather Summary</h3>
           <p><strong>Current Conditions:</strong> <span id="current-cond"></span></p>
-          <p><strong>Currently:</strong> <span id="current-temp"></span>&deg; F</p>
-          <p><strong>High:</strong> <span id="high-temp"></span>&deg; F</p></p>
-          <p><strong>Wind Chill:</strong> <span id="wind-chill"></span>&deg; F</p>
-          <p><strong>Humidity:</strong> <span id="humid"></span> %</p>
+          <p><strong>Currently:</strong> <span id="current-temp"></span>&deg;F</p>
+          <p><strong>High:</strong> <span id="high-temp"></span>&deg;F</p></p>
+          <p><strong>Wind Chill:</strong> <span id="wind-chill"></span>&deg;F</p>
+          <p><strong>Humidity:</strong> <span id="humid"></span>%</p>
           <p><strong>Wind Speed:</strong> <span id="wind-speed"></span> mph</p>
         </div>
       </div>
@@ -76,28 +76,31 @@
       </div>
       <div class="contentbox">
         <h3 class="fiveday-2">5 Day Forecast</h3>
-        <div class="forecastimgs">
-          <table class ="forecast">
-                <tr>
-                <th><span id="day1"></span></th>
-                <th><span id="day2"></span></th>
-                <th><span id="day3"></span></th>
-                <th><span id="day4"></span></th>
-                <th><span id="day5"></span></th>
-            </tr>
-            <tr>
-                <td><span id="img1"></span> &nbsp; <img src="#" alt="" id="icon1"></span> <span id="temp1"></span>&deg;F</td>
-                <td><span id="img2"></span> &nbsp; <img src="#" alt="" id="icon2"></span> <span id="temp2"></span>&deg;F</td>
-                <td><span id="img3"></span> &nbsp; <img src="#" alt="" id="icon3"></span> <span id="temp3"></span>&deg;F</td>
-                <td><span id="img4"></span> &nbsp; <img src="#" alt="" id="icon4"></span> <span id="temp4"></span>&deg;F</td>
-                <td><span id="img5"></span> &nbsp; <img src="#" alt="" id="icon5"></span> <span id="temp5"></span>&deg;F</td>
-            </tr>
-        </table>
-        </div>
-      </div>
- 
-
-      </div>
+        <table class ="forecast">
+          <tr>
+          <th><span id="day1"></span></th>
+          <th><span id="day2"></span></th>
+          <th><span id="day3"></span></th>
+          <th><span id="day4"></span></th>
+          <th><span id="day5"></span></th>
+      </tr>
+      <tr>
+          <td><span id="img1"></span>  <img src="#" alt="" id="icon1"></span> 
+          <td><span id="img2"></span>  <img src="#" alt="" id="icon2"></span> 
+          <td><span id="img3"></span>  <img src="#" alt="" id="icon3"></span> 
+          <td><span id="img4"></span>  <img src="#" alt="" id="icon4"></span> 
+          <td><span id="img5"></span>  <img src="#" alt="" id="icon5"></span> 
+      </tr>
+      <tr>
+         <td><span id="temp1"></span>&deg;F</td>
+         <td><span id="temp2"></span>&deg;F</td>
+         <td><span id="temp3"></span>&deg;F</td>
+         <td><span id="temp4"></span>&deg;F</td>
+         <td><span id="temp5"></span>&deg;F</td>
+      </tr>
+  </table>
+  </div>
+</div>
       <div class="contentbox">
         <div class="articlebox">
           <h3>News: Franklin County Fair Dates Announced</h3>
@@ -154,6 +157,7 @@
                 src="/images/youtubeicon.png"
                 alt="YouTube icon"
             /></a>
+           <p class="openweather">Forecast provided by <a href="https://openweathermap.org/">OpenWeather</a>.</p>
           </div>
         </div>
 
@@ -163,8 +167,7 @@
       <p>
         &copy;
         <script src="/lesson6/js/year.js"></script>
-        The Preston Buzz
-      </p>
+        The Preston Buzz </p>  
       <p class="date">
      <script src="weatherapi.js"></script> 
         <script src="/lesson6/currentdate.js"></script>
