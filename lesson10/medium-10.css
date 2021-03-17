@@ -19,4 +19,15 @@
     grid-row: 1;
     }
 
+    table {
+      width: 700px;
+      text-align: center;
+      border-collapse: collapse;
+    }
+
+    .contact {
+      text-align: center;
+
+    }
+
   }

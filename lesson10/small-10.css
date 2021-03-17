@@ -235,6 +235,27 @@ h2 {
     grid-row: 1;
     }  
   
+
+  .openweather {
+    font-size: 12px;
+    margin-top: 40px;
+  }  
+    
+  table {
+    width: 200px;
+    max-width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+  }
+
+  th {
+    background-color: #c13c1e;
+    color: #ebebd3ff; 
+  }
+  td {
+    background-color: white;
+  }
+
     
 
   

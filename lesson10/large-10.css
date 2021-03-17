@@ -131,7 +131,7 @@
   }
   
   table {
-    width: 800px;
+    width: 910px;
     max-width: 100%;
     text-align: center;
     border-collapse: collapse;
@@ -144,6 +144,5 @@
   td {
     background-color: white;
   }
-
 
 }
