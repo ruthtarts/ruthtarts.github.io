@@ -236,19 +236,5 @@ h2 {
     }  
   
     
-    table {
-      max-width: 1000px;
-      margin-right: auto;
-      margin-left: auto;
-      border-collapse: collapse;
-      justify-items: space-between;
-    }
 
-    th {
-      background-color: #c13c1e;
-      color: #ebebd3ff; 
-    }
-    td {
-      background-color: white;
-    }
   
