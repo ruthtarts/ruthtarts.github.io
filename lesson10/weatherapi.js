@@ -30,7 +30,6 @@ fetch(apiURL)
                 let daylist = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
                 let date = new Date(list[i].dt_txt);
                 let day = date.getDay();
-                let daysOfWeek = daylist[day];
                 let image = 'https://openweathermap.org/img/w/' + list[i].weather[0].icon + '.png';
                 let desc = list[i].weather[0].description; 
             
