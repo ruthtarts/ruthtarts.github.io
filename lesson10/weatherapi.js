@@ -10,8 +10,14 @@ fetch(apiURL)
         document.getElementById('current-temp').textContent = Math.round(jsObject.main.temp);
         document.getElementById('high-temp').textContent = Math.round(jsObject.main.temp_max);
         document.getElementById('wind-speed').textContent = Math.round(jsObject.wind.speed);
-        document.getElementById('wind-chill').textContent = Math.round(jsObject.main.feels_like);
         document.getElementById('humid').textContent = Math.round(jsObject.main.humidity);
+
+        let temp = jsObject.main.temp;
+        let windSpeed = jsObject.wind.speed;
+        let windChill = (35.74 + (0.6 * temp))-(35.7 * Math.pow(windSpeed, 0.16)) + (0.43 * temp * Math.pow(windSpeed,0.16));
+        let windChillTemp = Math.round(windChill);
+        document.getElementById('wind-chill').textContent = windChillTemp;
+        
     });
 
     fetch(apiURL2)
