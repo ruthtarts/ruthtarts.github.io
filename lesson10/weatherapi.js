@@ -14,7 +14,7 @@ fetch(apiURL)
 
         let temp = jsObject.main.temp;
         let windSpeed = jsObject.wind.speed;
-        let windChill = (35.74 + (0.6 * temp))-(35.7 * Math.pow(windSpeed, 0.16)) + (0.43 * temp * Math.pow(windSpeed,0.16));
+        let windChill = (35.74 + (0.6 * temp)) - (35.7 * Math.pow(windSpeed, 0.16)) + (0.43 * temp * Math.pow(windSpeed, 0.16));
         let windChillTemp = Math.round(windChill);
         document.getElementById('wind-chill').textContent = windChillTemp;
         
