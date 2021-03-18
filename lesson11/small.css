@@ -123,6 +123,7 @@ body {
   color: #444;
 }
 
+
 footer {
   font-family: "Roboto", sans-serif;
   max-width: 950px;
@@ -200,16 +201,19 @@ footer {
 
 .hero-box {
   display: block;
+
 }
 
 .hero-box img {
   max-width: 100%;
   margin-top: 20px;
+  
 }
 
   .week6hero {    
   grid-column: 1 / -1;
   grid-row: 1;
+
   }  
 
   .action {
@@ -218,7 +222,8 @@ footer {
     background-color: #c13c1e;
     color: white;
     margin-top: 10px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 50px;
     padding-top: 5px;
     text-align: center;
@@ -349,7 +354,7 @@ form label.top input, form label.top select {
 color: #c13c1e;
 }
 
-h2 {
+form legend h2 {
 border: 3px double black;
 text-align: center;
 padding: 15px;
