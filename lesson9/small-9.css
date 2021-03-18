@@ -106,12 +106,13 @@ body {
   position: relative;
   width: 100%;
   text-align: left;
-  padding-left: 5px;
+  padding-left: 10px;
   margin-bottom: -2em;
 }
 
 .logo {
   max-width: 100%;
+  padding-left: 10px;
   margin-bottom: -25px;
 }
 
@@ -129,7 +130,7 @@ footer {
   margin: 2em auto;
   text-align: center;
   background-color: #eee;
-  height: 330px;
+  height: 400px;
   line-height: 1px;
   padding-top: 15px;
   margin-bottom: -1px;
@@ -140,7 +141,22 @@ footer {
   font-weight: 500;
   padding-top: 5px;
 }
-  
+
+
+.forecastimgs img {
+  max-width: 18%;
+  padding-left: 3px;
+}
+
+.fiveday {
+  display: none;
+}
+
+.fiveday-2 {
+  display: flex;
+  text-align: center;
+}
+
 .fairp {
   text-align: justify;
 }
@@ -151,6 +167,11 @@ footer {
 
 .franklin-fair2 {
   max-width: 100%;
+}
+
+.articlebox {
+  padding-left: 25px;
+  padding-right: 20px;
 }
 
 
@@ -173,6 +194,9 @@ footer {
   margin-bottom: -1.3em;
 }
 
+.contact {
+  text-align: justify;
+}
 
 .footer2 {
   background-color: #595959;
@@ -194,17 +218,12 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 250px;
+  width: 300px;
 
-}
-
-.hero-box {
-  display: block;
 }
 
 .hero-box img {
   max-width: 100%;
-  margin-top: 20px;
 }
 
   .week6hero {    

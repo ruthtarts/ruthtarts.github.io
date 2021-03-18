@@ -1,261 +1,293 @@
 /************* Small View **********/
 
 h2 {
-    font-family: "Fjalla One", sans-serif;
-    font-weight: normal;
-    margin-bottom: -0.5px;
-  }
-  
-  h1 {
-    font-weight: normal;
-    font-family: "Roboto Condensed", sans-serif;
-    padding-left: 1em;
-    padding-top: 0.5em;
-  }
-  
-  header {
-    display: flex;
-    width: 100%;
-    font-size: 10px;
-    max-width: 1000px;
-    justify-items: center;
-    text-align: center;
-    margin: 0 auto;
-    padding-bottom: 15px;
-    padding-top: 5px;
-  }
-  
-  header figure.logo {
-    float: left;
-    margin: 0;
-  }
-  
-  nav {
-    display: flex;
-    background-color: #eee;
-    text-align: center;
-    font-weight: 500;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    max-width: 100%;
-    width: 1000px;
-  }
-  
-  nav ul li a {
-    color: #c13c1e;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-    font-size: 18px;
-  }
-  
-  nav a:hover {
-    background-color: #D9BC2B;
-    color: #333333;
-  }
-  
-  .navigation {
-    display: block;
-    list-style: none;
-    padding: 0;
-  }
-  
-  .navigation li:first-child {
-    display: block;
-  }
-  
-  .navigation li {
-    display: none;
-  }
-  
-  .navigation a {
-    display: block;
-    text-decoration: none;
-  }
-  
-  .responsive li {
-    display: block;
-  }
-  .ham {
-    display: block;
-  }
-  
-  a {
-    color: #c13c1e;
-  }
-  
-  .preston a {
-    background-color: #D9BC2B;
-    color: #333333;
-  }
-  
-  main {
-    width: 100%;
-    max-width: 950px;
-    margin: 0 auto;
-  }
-  
-  body {
-    font-family: "Roboto", sans-serif;
-    padding: 15px;
-  }
-  
-  .wrap {
-    position: relative;
-    width: 100%;
-    text-align: left;
-    padding-left: 10px;
-    margin-bottom: -2em;
-  }
-  
-  .logo {
-    max-width: 100%;
-    padding-left: 10px;
-    margin-bottom: -25px;
-  }
-  
-  .contentbox {
-    display: block;
-    margin: 10px auto;
-    padding: 15px;
-    background-color: #eee;
-    color: #444;
-  }
-  
-  footer {
-    font-family: "Roboto", sans-serif;
-    max-width: 950px;
-    margin: 2em auto;
-    text-align: center;
-    background-color: #eee;
-    height: 400px;
-    line-height: 1px;
-    padding-top: 15px;
-    margin-bottom: -1px;
-  }
+  font-family: "Fjalla One", sans-serif;
+  font-weight: normal;
+  margin-bottom: -0.5px;
+}
 
-  footer2 a {
-    color: white;
-  }
-  
-  .date {
-    font-size: small;
-    font-weight: 500;
-    padding-top: 5px;
-  }
-  
-  
-  .forecastimgs img {
-    max-width: 18%;
-    padding-left: 3px;
-  }
-  
-  .fiveday {
-    display: none;
-  }
-  
-  .fiveday-2 {
-    display: flex;
-    text-align: center;
-  }
-  
-  .fairp {
-    text-align: justify;
-  }
-  
-  .franklin-fair {
-    display: none;
-  }
-  
-  .franklin-fair2 {
-    max-width: 100%;
-  }
-  
-  .articlebox {
-    padding-left: 25px;
-    padding-right: 20px;
-  }
-  
-  
-  .contact {
-    text-align: left;
-    margin: 30px;
-    line-height: 2px;
-  }
-  
-    .prestonmap {
-    max-width: 100%;
-    margin-bottom: 10px;
-  }
-  
-  
-  .social img{
-    max-width: 100%;
-    width: 30px;
-    padding: 5px;
-    margin-bottom: -1.3em;
-  }
-  
-  .contact {
-    text-align: justify;
-  }
-  
-  .footer2 {
-    background-color: #595959;
-    color: white;
-    height: 50px;
-    text-align: center;
-    line-height: .1px;
-    margin-top: -15px;
-    padding: 2px;
-      
-  }
-  
-  .address {
-    font-size: 12px;
-  }
-  
-  
-  .pancakebanner {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-  
-  }
-  
-  .hero-box img {
-    max-width: 100%;
-  }
-  
-    .week6hero {    
-    grid-column: 1 / -1;
-    grid-row: 1;
-    }  
-  
+h1 {
+  font-weight: normal;
+  font-family: "Roboto Condensed", sans-serif;
+  padding-left: 1em;
+  padding-top: 0.5em;
+}
 
-  .openweather {
-    font-size: 12px;
-    margin-top: 40px;
+header {
+  display: flex;
+  width: 100%;
+  font-size: 10px;
+  max-width: 1000px;
+  justify-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 15px;
+  padding-top: 5px;
+}
+
+header figure.logo {
+  float: left;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  background-color: #eee;
+  text-align: center;
+  font-weight: 500;
+}
+
+nav ul {
+  list-style-type: none;
+  max-width: 100%;
+  width: 1000px;
+}
+
+nav ul li a {
+  color: #c13c1e;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  background-color: #D9BC2B;
+  color: #333333;
+}
+
+.navigation {
+  display: block;
+  list-style: none;
+  padding: 0;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation a {
+  display: block;
+  text-decoration: none;
+}
+
+.responsive li {
+  display: block;
+}
+.ham {
+  display: block;
+}
+
+a {
+  color: #c13c1e;
+}
+
+.preston a {
+  background-color: #D9BC2B;
+  color: #333333;
+}
+
+main {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 15px;
+}
+
+.wrap {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  padding-left: 5px;
+  margin-bottom: -2em;
+}
+
+.logo {
+  max-width: 100%;
+  margin-bottom: -25px;
+}
+
+.contentbox {
+  display: block;
+  margin: 10px auto;
+  padding: 15px;
+  background-color: #eee;
+  color: #444;
+}
+
+footer {
+  font-family: "Roboto", sans-serif;
+  max-width: 950px;
+  margin: 2em auto;
+  text-align: center;
+  background-color: #eee;
+  height: 330px;
+  line-height: 1px;
+  padding-top: 15px;
+  margin-bottom: -1px;
+}
+
+.date {
+  font-size: small;
+  font-weight: 500;
+  padding-top: 5px;
+}
+  
+.fairp {
+  text-align: justify;
+}
+
+.franklin-fair {
+  display: none;
+}
+
+.franklin-fair2 {
+  max-width: 100%;
+}
+
+
+.contact {
+  text-align: left;
+  margin: 30px;
+  line-height: 2px;
+}
+
+  .prestonmap {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+
+.social img{
+  max-width: 100%;
+  width: 30px;
+  padding: 5px;
+  margin-bottom: -1.3em;
+}
+
+
+.footer2 {
+  background-color: #595959;
+  color: white;
+  height: 50px;
+  text-align: center;
+  line-height: .1px;
+  margin-top: -15px;
+  padding: 2px;
+    
+}
+
+.address {
+  font-size: 12px;
+}
+
+
+.pancakebanner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+
+}
+
+.hero-box {
+  display: block;
+}
+
+.hero-box img {
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+  .week6hero {    
+  grid-column: 1 / -1;
+  grid-row: 1;
   }  
-    
-  table {
-    width: 200px;
-    max-width: 100%;
-    text-align: center;
-    border-collapse: collapse;
-  }
 
-  th {
+  .action {
+    grid-column: 1;
+    grid-row: 1;
     background-color: #c13c1e;
-    color: #ebebd3ff; 
+    color: white;
+    margin-top: 10px;
+    margin: 0 auto;
+    padding: 50px;
+    padding-top: 5px;
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    justify-content: center;
   }
-  td {
-    background-color: white;
-  }
-
-    
-
   
+  .action button {
+    line-height: 2em;
+    margin-top: -5px;
+    margin-left: -15px;
+    width: 12em;
+    background-color: #d9bc2b;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+.areas {
+  display: grid;  
+  grid-template-columns: 1fr;
+  text-align: center;  
+  width: 100%;
+
+}
+
+.areas section {
+  margin: 8px;
+  background-color: #eee;
+  color: #444;
+}
+
+.areas img {
+  margin-top: 15px;
+}
+
+.areas h2 {
+  font-size: 35px;
+}
+
+h4 {
+    font-size: 13px;
+    margin-top: -5px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.areas div {
+    line-height: 30px;
+}
+
+.popcorn {
+  display: none;
+}
+
+
+.popcorn2 {
+  display: none;
+}
+
+.popcorn3 {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: -25px;
+}
+
+
+
+
