@@ -208,6 +208,16 @@ td {
   padding-top: 20px;
  }
 
+ .footer2preston {
+  background-color: #595959;
+  color: white;
+  height: 50px;
+  text-align: center;
+  line-height: .1px;
+  padding: 2px;
+  margin-top: 2px;
+}
+
 
 }
  

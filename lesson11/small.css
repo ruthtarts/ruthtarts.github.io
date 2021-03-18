@@ -121,6 +121,8 @@ body {
   padding: 15px;
   background-color: #eee;
   color: #444;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -184,6 +186,16 @@ footer {
   margin-top: -15px;
   padding: 2px;
     
+}
+
+.footer2preston {
+  background-color: #595959;
+  color: white;
+  height: 50px;
+  text-align: center;
+  line-height: .1px;
+  margin-top: 24px;
+  padding: 2px;
 }
 
 .address {
@@ -381,6 +393,41 @@ form label.top input:required:valid {
 
 border-left: green solid 6px;
 }
+
+.gallery img[data-src] {
+  filter: blur(0.2em);
+}
+
+.weathergallery figcaption {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  grid-auto-rows: 500px;
+  justify-content: center;
+}
+
+
+.weathergallery img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+  max-width: 100%;
+}
+
+.weathergallery {
+  display: grid;
+  justify-content: center;
+}
+
+.forecast {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 
 
