@@ -1,0 +1,222 @@
+<!-- Doctype HTML5 -->
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preston Town Page</title>
+    <meta
+      name="description"
+      content="Preston Weather Page - WDD 230 - Week 04"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/lesson8/small-8.css" />
+    <link rel="stylesheet" href="/lesson8/large-8.css" />
+    <link rel="stylesheet" href="/lesson8/medium-8.css" />
+    <link rel="stylesheet" href="/lesson6/normalize.css" />
+    <link rel="shortcut icon" href="/lesson6/images/favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <div class="wrap">
+        <img
+          class="logo"
+          src="/lesson6/images/pbl-transparent.png"
+          alt="The Preston Buzz Logo"
+        />
+        <h1>Your Community. Your News.</h1>
+      </div>
+    </header>
+
+    <nav>
+      <ul class="navigation">
+        <li><a class="ham" href="#">Menu</a></li>
+        <li><a href="/lesson11/index.html">Home</a></li>
+        <li><a href="/lesson11/preston.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li class="preston">
+          <a href="/lesson11/stormcenter.html">Storm Center</a>
+        </li>
+        <li><a href="/lesson11/gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <script src="/lesson6/js/prestonscript.js"></script>
+
+    <main>
+      <h1 class="reportastorm">Report a Storm or Weather Event</h1>
+
+      <form method="get" action="thanks.html">
+        <fieldset>
+          <legend>Your Contact Information</legend>
+          <label class="top"
+            >Full Name <span class="req">(required)</span><br />
+            <input
+              type="text"
+              pattern="[a-z A-Z]{5,}"
+              class="form-control"
+              name="name"
+              title="Must be 5 or more alphabet characters."
+              required /></label
+          ><br />
+          <label class="top"
+            >E-mail<br />
+            <input
+              type="email"
+              name="email"
+              placeholder="example@example.com" /></label
+          ><br />
+          <label class="top"
+            >Phone Number <span class="req">(required)</span><br />
+            <input type="tel" name="tel" required /> </label
+          ><br />
+          <label class="top"
+            >Zip Code <span class="req">(required)</span><br />
+            <input type="number" name="zip" required /></label
+          ><br />
+        </fieldset>
+        <br />
+
+        <fieldset>
+          <legend>Storm Information</legend>
+          <label class="top">Storm Date<span class="req"> (required)</span><input type="date" name="date" required /></label><br>
+          <label class="top" for="storm">Storm Type</label>
+          <input list="storms" name="storm" id="storm" />
+          <datalist id="storms">
+            <option value="Flash Flood"></option>
+            <option value="Hail"></option>
+            <option value="Hurricane"></option>
+            <option value="Thunderstorm"></option>
+            <option value="Tornado"></option>
+          </datalist>
+
+          <div>
+            <br />
+            <label class="severity" for="rating"
+              >Storm Severity Rating: &nbsp;&nbsp;&nbsp; <br />
+              <input
+                type="range"
+                id="rating"
+                value="5"
+                min="1"
+                max="10"
+                step="1"
+                list="tickmarks"
+                oninput="adjustRating(this.value)"
+                onchange="adjustRating(this.value)"
+              />
+              <span id="ratingvalue">5</span>
+            </label>
+            <datalist id="tickmarks">
+              <option value="0"></option>
+              <option value="1"></option>
+              <option value="2"></option>
+              <option value="3"></option>
+              <option value="4"></option>
+              <option value="5"></option>
+              <option value="6"></option>
+              <option value="7"></option>
+              <option value="8"></option>
+              <option value="9"></option>
+              <option value="10"></option>
+            </datalist>
+          </div>
+          <br />
+          <div>
+            <label class="top"
+              >Storm Region<br />
+              <select name="region">
+                <option value="select" selected disabled>
+                  Select Region &#9662;
+                </option>
+                <option value="preston">Preston</option>
+                <option value="sodasprings">Soda Springs</option>
+                <option value="fishhaven">Fish Haven</option>
+              </select>
+            </label>
+          </div>
+        </fieldset>
+        <br />
+
+        <fieldset>
+          <legend>Are you in Danger?</legend>
+          <label class="indanger"
+            ><input type="radio" name="danger" value="no" /> No</label
+          ><br />
+          <label class="indanger"
+            ><input type="radio" name="danger" value="maybe" /> Maybe</label
+          ><br />
+          <label class="indanger"
+            ><input type="radio" name="danger" value="yes" /> Yes</label
+          ><br />
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Additional Information or Comments:</legend>
+          <label>
+            <textarea id="additional" name="additional" rows="4" cols="30">
+            </textarea>
+          </label>
+        </fieldset>
+        <br />
+
+        <input type="submit" value="Send Your Storm Report" class="submitBtn" />
+      </form>
+      <br />
+      <br />
+    </main>
+
+    <footer>
+      <div class="lastsection">
+        <div class="contact">
+          <h4>Contact Information</h4>
+          <p class="address">&#128204; 123 Main Street; Preston, Idaho 83263</p>
+          <p>&#9742; 208-555-5555</p>
+          <p>&#128231; hello@theprestonbuzz.com</p>
+          <div class="social">
+            <a href="http://www.facebook.com" target="_blank"
+              ><img src="/images/facebookicon.png" alt="Facebook icon"
+            /></a>
+            <a href="http://www.instagram.com" target="_blank"
+              ><img src="/images/instagramicon.png" alt="Instagram icon"
+            /></a>
+
+            <a href="http://www.youtube.com" target="_blank"
+              ><img src="/images/youtubeicon.png" alt="YouTube icon"
+            /></a>
+          </div>
+        </div>
+
+        <a
+          href="https://www.google.com/maps/place/Preston,+ID+83263/@42.0997416,-111.9154302,13z/data=!3m1!4b1!4m5!3m4!1s0x8754f78c7cda6c31:0xf1b3b4fc465a4a3f!8m2!3d42.0963133!4d-111.8766173?hl=en"
+          ><img
+            class="prestonmap"
+            src="/images/prestonmap.jpg"
+            alt="Map of Preston, Idaho"
+        /></a>
+      </div>
+    </footer>
+    <div class="footer2">
+      <p>
+        &copy;
+        <script src="/lesson6/js/year.js"></script>
+        The Preston Buzz
+      </p>
+      <p class="date">
+        <script src="/lesson6/currentdate.js"></script>
+        <script src="/lesson6/windchill.js"></script>
+      </p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="/lesson6/js/webfont.js"></script>
+    <script src="/lesson8/adjustRating.js"></script>
+  </body>
+</html>
