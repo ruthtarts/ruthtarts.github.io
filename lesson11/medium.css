@@ -105,6 +105,7 @@
 .areas img {
   max-width: 500px;
   margin-left: 5px;
+  margin-right: 5px;
 }
 
 .areas h2 {
@@ -139,10 +140,12 @@ section:nth-child(odd) {
 
 section:nth-child(even) h2{
   margin-left: 100px;
+  margin-top: 50px;
 }  
 
 section:nth-child(even) h4{
   margin-left: 120px;
+  margin-top: 12px;
 }  
 
 section:nth-child(3) h2{
