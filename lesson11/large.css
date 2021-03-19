@@ -49,6 +49,10 @@
     grid-row: 1;
   }
 
+  .pancakebanner {
+    width: 650px;
+  }
+
 .action {
   display: inline-block;
   background-color: rgba(240, 240, 240, 0.8);

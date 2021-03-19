@@ -21,6 +21,11 @@
     height: 215px;
   }
 
+  .pancakebanner {
+    width: 550px;
+  
+  }
+
   .action {
     grid-column: 1;
     grid-row: 1;
