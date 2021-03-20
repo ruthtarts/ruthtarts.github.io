@@ -222,6 +222,53 @@ td {
   margin-top: 2px;
 }
 
+.prestonEvents {
+  background-color: white;
+  padding: 20px;
+  line-height: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.preston-header {
+  text-align: center;
+  font-size: 30px;
+  color: #c13c1e;
+}
+
+.fhEvents {
+  background-color: white;
+  padding: 20px;
+  width: 780px;
+  line-height: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.fh-header {
+  text-align: center;
+  font-size: 30px;
+  color: #c13c1e;
+}
+
+.ss-header {
+  text-align: center;
+  font-size: 30px;
+  color: #c13c1e;
+}
+
+.ssEvents {
+  background-color: white;
+  padding: 20px;
+  line-height: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+
 
 }
  
