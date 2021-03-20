@@ -23,7 +23,6 @@
 
   .pancakebanner {
     width: 550px;
-  
   }
 
   .action {
@@ -75,123 +74,116 @@
     margin-left: 30px;
   }
 
+  .weathergallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  }
+  .weathergallery img {
+    max-width: 100%;
+  }
 
-.weathergallery {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
-}
-.weathergallery img {
- max-width: 100%;
-}
+  .forecast {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.forecast {
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .footer2preston {
+    background-color: #595959;
+    color: white;
+    height: 50px;
+    text-align: center;
+    line-height: 0.1px;
+    padding: 2px;
+    margin-top: 2px;
+  }
 
-.footer2preston {
-  background-color: #595959;
-  color: white;
-  height: 50px;
-  text-align: center;
-  line-height: .1px;
-  padding: 2px;
-  margin-top: 2px;
-}
+  .areas {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+  }
 
-.areas {
-  margin-left: auto;
-  margin-right: auto;
-  width: 700px;
-}
+  .areas img {
+    max-width: 500px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 
-.areas img {
-  max-width: 500px;
-  margin-left: 5px;
-  margin-right: 5px;
-}
+  .areas h2 {
+    position: absolute;
+    margin-bottom: 140px;
+    margin-right: 90px;
+  }
 
-.areas h2 {
-  position: absolute;
-  margin-bottom: 140px;
-  margin-right: 90px;
-}
+  .areas h4 {
+    position: absolute;
+    margin-bottom: 45px;
+    margin-right: 40px;
+    max-width: 500px;
+  }
 
-.areas h4 {
-  position: absolute;
-  margin-bottom: 45px;
-  margin-right: 40px;
-  max-width: 500px;
+  .areas div {
+    font-weight: bold;
+    margin-top: 70px;
+  }
 
-}
+  section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+  }
+  section:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
 
-.areas div {
-  font-weight: bold;
-  margin-top: 70px;
-}
+  section:nth-child(even) h2 {
+    margin-left: 100px;
+    margin-top: 50px;
+  }
 
-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 300px;
+  section:nth-child(even) h4 {
+    margin-left: 120px;
+    margin-top: 12px;
+  }
 
-}
-section:nth-child(odd) {
-	flex-direction: row-reverse;
-}  
+  section:nth-child(3) h2 {
+    margin-right: 140px;
+  }
 
-section:nth-child(even) h2{
-  margin-left: 100px;
-  margin-top: 50px;
-}  
+  section:nth-child(3) h4 {
+    margin-right: 100px;
+  }
 
-section:nth-child(even) h4{
-  margin-left: 120px;
-  margin-top: 12px;
-}  
+  .prestonEvents {
+    margin: 100px;
+    font-size: 30px;
+    line-height: 50px;
+  }
 
-section:nth-child(3) h2{
-  margin-right: 140px;
-}  
+  .preston-header {
+    margin-bottom: -50px;
+    font-size: 50px;
+  }
 
-section:nth-child(3) h4{
-  margin-right: 100px;
-}  
+  .fhEvents {
+    max-width: 60%;
+    font-size: 30px;
+    line-height: 50px;
+  }
 
-.prestonEvents { 
-  margin: 100px;
-  font-size: 30px;
-  line-height: 50px;
+  .fh-header {
+    font-size: 50px;
+  }
 
-}
-
-.preston-header {
- margin-bottom: -50px;
- font-size: 50px;
-}
-
-.fhEvents {
-  max-width: 60%;
-  font-size: 30px;
-  line-height: 50px;
-}
-
-.fh-header {
-  font-size: 50px;
- }
-
- .ss-header {
-  font-size: 50px;
-
-}
-.ssEvents {
-  max-width: 60%;
-  font-size: 30px;
-  line-height: 50px;
-}
-
-
+  .ss-header {
+    font-size: 50px;
+  }
+  .ssEvents {
+    max-width: 60%;
+    font-size: 30px;
+    line-height: 50px;
+  }
 }

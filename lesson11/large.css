@@ -1,6 +1,5 @@
 /*****Large View*****/
 
-
 @media only screen and (min-width: 950px) {
   nav {
     display: flex;
@@ -24,11 +23,11 @@
     margin: 0;
     padding: 0;
   }
-  
+
   .navigation {
     display: flex;
   }
-  
+
   .navigation li {
     display: block;
     width: 130px;
@@ -43,7 +42,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  
+
   .hero-box img {
     grid-column: 1 / -1;
     grid-row: 1;
@@ -53,80 +52,79 @@
     width: 650px;
   }
 
-.action {
-  display: inline-block;
-  background-color: rgba(240, 240, 240, 0.8);
-  color: black;
-  margin-left: 20px;
-  margin-top: 60px;
-  text-align: center;
-  height: 150px;
-  width: 275px;
-  font-size: 20px;
-}
+  .action {
+    display: inline-block;
+    background-color: rgba(240, 240, 240, 0.8);
+    color: black;
+    margin-left: 20px;
+    margin-top: 60px;
+    text-align: center;
+    height: 150px;
+    width: 275px;
+    font-size: 20px;
+  }
 
-.action h3 {
-  line-height: 3em;
-}
+  .action h3 {
+    line-height: 3em;
+  }
 
-.action button {
-  line-height: 2em;
-  width: 8em;
-  background-color: #d9bc2b;
-  font-size: 1.2em;
-  font-weight: normal;
-  margin-top: -8em;
-}
+  .action button {
+    line-height: 2em;
+    width: 8em;
+    background-color: #d9bc2b;
+    font-size: 1.2em;
+    font-weight: normal;
+    margin-top: -8em;
+  }
 
-  
-.summary {
-  grid-column: 1;
-  grid-row: 1;
-  background-color: rgba(240, 240, 240, 0.8);
-  margin: 3em;
-  padding: 1em;
-  text-align: center;
-  font-size: 0.9em;
-  padding-bottom: 70px;
-  height: 180px;
-  max-width: 220px;
-}
-  
+  .summary {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: rgba(240, 240, 240, 0.8);
+    margin: 3em;
+    padding: 1em;
+    text-align: center;
+    font-size: 0.9em;
+    padding-bottom: 70px;
+    height: 180px;
+    max-width: 220px;
+  }
+
   .fiveday {
     display: flex;
     margin-bottom: -5px;
   }
-  
+
   .fiveday-2 {
     display: none;
   }
-  
-.forecastimgs img {
-  display: inline-block;
-  max-width: 100%;
-  margin-right: 30px;
-  padding-left: 20px;
-}
- 
+
+  .forecastimgs img {
+    display: inline-block;
+    max-width: 100%;
+    margin-right: 30px;
+    padding-left: 20px;
+  }
+
   .franklin-fair {
-  display: flex;
-  max-width: 100%;
-  float: right;
-  margin-top: -30px;
-  padding-left: 10px;
-  padding-right: 20px;
+    display: flex;
+    max-width: 100%;
+    float: right;
+    margin-top: -30px;
+    padding-left: 10px;
+    padding-right: 20px;
   }
-     
+
   .franklin-fair2 {
-  display: none;
+    display: none;
   }
- 
+
   footer {
     display: flex;
     height: 230px;
     max-width: 100%;
   }
-  
+
   .prestonmap {
     display: flex;
     float: left;
@@ -134,11 +132,10 @@
     padding: 40px;
     margin-top: -25px;
   }
-  
+
   .contact {
-  display: inline-block;
-  padding: 10px;
-    
+    display: inline-block;
+    padding: 10px;
   }
 
   .lastsection {
@@ -147,128 +144,121 @@
   }
 
   .address {
-  font-size: 16px;
-}
+    font-size: 16px;
+  }
 
-.areas {
-  display: grid;  
-  grid-template-columns: 1fr 1fr 1fr;
-  text-align: center;  
-  width: 950px;
+  .areas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    width: 950px;
+  }
 
-}
+  .popcorn {
+    display: none;
+  }
 
-.popcorn {
-display: none;
-}
+  .popcorn2 {
+    display: block;
+    margin-top: 30px;
+  }
 
-.popcorn2 {
-display: block;
-margin-top: 30px;
-}
+  .popcorn3 {
+    display: none;
+  }
 
-.popcorn3 {
- display: none;
-}
+  .weathergallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+  }
 
-.weathergallery {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-content: center;
-
-}
-
-.weathergallery figcaption {
+  .weathergallery figcaption {
     padding: 4px;
-}
+  }
 
-.weathergallery figure:hover {
+  .weathergallery figure:hover {
     box-shadow: 0 0 30px #141414;
-}
-    
-.forecast img{
-  margin: 0;
-}
+  }
 
-table {
-  width: 710px;
-  max-width: 100%;
-  text-align: center;
-  border-collapse: collapse;
-  margin-left: auto;
-  margin-right: auto;
-  
+  .forecast img {
+    margin: 0;
+  }
+
+  table {
+    width: 710px;
+    max-width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  th {
+    background-color: #c13c1e;
+    color: #ebebd3ff;
+  }
+  td {
+    background-color: white;
+  }
+
+  .openweather {
+    padding-top: 20px;
+  }
+
+  .footer2preston {
+    background-color: #595959;
+    color: white;
+    height: 50px;
+    text-align: center;
+    line-height: 0.1px;
+    padding: 2px;
+    margin-top: 2px;
+  }
+
+  .prestonEvents {
+    background-color: white;
+    padding: 20px;
+    line-height: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  .preston-header {
+    text-align: center;
+    font-size: 30px;
+    color: #c13c1e;
+  }
+
+  .fhEvents {
+    background-color: white;
+    padding: 20px;
+    width: 780px;
+    line-height: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  .fh-header {
+    text-align: center;
+    font-size: 30px;
+    color: #c13c1e;
+  }
+
+  .ss-header {
+    text-align: center;
+    font-size: 30px;
+    color: #c13c1e;
+  }
+
+  .ssEvents {
+    background-color: white;
+    padding: 20px;
+    line-height: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
 }
-
-th {
-  background-color: #c13c1e;
-  color: #ebebd3ff; 
-}
-td {
-  background-color: white;
-}
-
-.openweather {
-  padding-top: 20px;
- }
-
- .footer2preston {
-  background-color: #595959;
-  color: white;
-  height: 50px;
-  text-align: center;
-  line-height: .1px;
-  padding: 2px;
-  margin-top: 2px;
-}
-
-.prestonEvents {
-  background-color: white;
-  padding: 20px;
-  line-height: 30px;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-}
-
-.preston-header {
-  text-align: center;
-  font-size: 30px;
-  color: #c13c1e;
-}
-
-.fhEvents {
-  background-color: white;
-  padding: 20px;
-  width: 780px;
-  line-height: 30px;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-}
-
-.fh-header {
-  text-align: center;
-  font-size: 30px;
-  color: #c13c1e;
-}
-
-.ss-header {
-  text-align: center;
-  font-size: 30px;
-  color: #c13c1e;
-}
-
-.ssEvents {
-  background-color: white;
-  padding: 20px;
-  line-height: 30px;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-}
-
-
-
-}
- 

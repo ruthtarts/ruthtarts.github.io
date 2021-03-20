@@ -17,10 +17,10 @@ fetch(apiURL)
         let windChill = (35.74 + (0.6 * temp)) - (35.7 * Math.pow(windSpeed, 0.16)) + (0.43 * temp * Math.pow(windSpeed, 0.16));
         let windChillTemp = Math.round(windChill);
         document.getElementById('wind-chill').textContent = windChillTemp;
-        
+
     });
 
-    fetch(apiURL2)
+fetch(apiURL2)
     .then((response) => response.json())
     .then((jsObject) => {
         console.table(jsObject);
@@ -37,13 +37,13 @@ fetch(apiURL)
                 let date = new Date(list[i].dt_txt);
                 let day = date.getDay();
                 let image = 'https://openweathermap.org/img/w/' + list[i].weather[0].icon + '.png';
-                let desc = list[i].weather[0].description; 
-            
+                let desc = list[i].weather[0].description;
+
                 document.getElementById(`day` + zero).textContent = daylist[day];
                 document.getElementById(`temp` + zero).textContent = Math.round(list[i].main.temp);
                 document.getElementById(`icon` + zero).setAttribute('src', image);
                 document.getElementById(`icon` + zero).setAttribute('alt', desc);
-              }
             }
-    
+        }
+
     });
