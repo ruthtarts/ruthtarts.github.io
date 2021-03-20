@@ -13,25 +13,26 @@ fetch(requestURL)
             if (towns[i].name == "Fish Haven") {
 
                 let place = document.createElement('section');
-                let prestonEvents = document.createElement('div');
+                let fhEvents = document.createElement('div');
 
                 for (let j = 0; j < towns[i].events.length; j++) {
 
 
-                    prestonEvents.append(towns[i].events[j]);
+                    fhEvents.append(towns[i].events[j]);
                     if (j < towns[i].events.length - 1) {
-                        prestonEvents.append(" | ");
+                        fhEvents.append("  ⚫  ");
                     }
 
                 }
 
-                place.appendChild(prestonEvents);
+                place.appendChild(fhEvents);
 
 
-                document.querySelector('div.prestonEvents').appendChild(place);
+                document.querySelector('div.fhEvents').appendChild(place);
 
 
             }
+
         }
 
     });

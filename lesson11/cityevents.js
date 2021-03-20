@@ -20,7 +20,7 @@ fetch(requestURL)
 
                     prestonEvents.append(towns[i].events[j]);
                     if (j < towns[i].events.length - 1) {
-                        prestonEvents.append(" | ");
+                        prestonEvents.append("  ⚫  ");
                     }
 
                 }

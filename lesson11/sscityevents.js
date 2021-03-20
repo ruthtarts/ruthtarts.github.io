@@ -13,22 +13,22 @@ fetch(requestURL)
             if (towns[i].name == "Soda Springs") {
 
                 let place = document.createElement('section');
-                let prestonEvents = document.createElement('div');
+                let ssEvents = document.createElement('div');
 
                 for (let j = 0; j < towns[i].events.length; j++) {
 
 
-                    prestonEvents.append(towns[i].events[j]);
+                    ssEvents.append(towns[i].events[j]);
                     if (j < towns[i].events.length - 1) {
-                        prestonEvents.append(" | ");
+                        ssEvents.append("  ⚫  ");
                     }
 
                 }
 
-                place.appendChild(prestonEvents);
+                place.appendChild(ssEvents);
 
 
-                document.querySelector('div.prestonEvents').appendChild(place);
+                document.querySelector('div.ssEvents').appendChild(place);
 
 
             }
