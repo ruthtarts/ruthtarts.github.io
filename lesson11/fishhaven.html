@@ -15,15 +15,14 @@
       rel="stylesheet"
     />
     <link
-    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400&display=swap"
-    rel="stylesheet"
-  />
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/lesson11/small.css" />
     <link rel="stylesheet" href="/lesson11/large.css" />
     <link rel="stylesheet" href="/lesson11/medium.css" />
     <link rel="stylesheet" href="/lesson6/normalize.css" />
-    <link rel="shortcut icon" href="/lesson6/images/favicon.ico">
-
+    <link rel="shortcut icon" href="/lesson6/images/favicon.ico" />
   </head>
   <body>
     <header>
@@ -42,28 +41,35 @@
         <li><a href="/lesson11/index.html">Home</a></li>
         <li><a href="/lesson11/preston.html">Preston</a></li>
         <li><a href="/lesson11/sodasprings.html">Soda Springs</a></li>
-        <li class="preston"><a href="/lesson11/fishhaven.html">Fish Haven</a></li>
+        <li class="preston">
+          <a href="/lesson11/fishhaven.html">Fish Haven</a>
+        </li>
         <li><a href="/lesson11/stormcenter.html">Storm Center</a></li>
         <li><a href="/lesson11/gallery.html">Gallery</a></li>
       </ul>
     </nav>
     <script src="/lesson6/js/prestonscript.js"></script>
     <main>
- 
       <h2>Fish Haven, Idaho</h2>
       <div class="hero-box">
         <picture class="week6hero">
-          <source media="(max-width: 600px)" srcset="/lesson11/hero4-3.jpg">
-          <source media="(max-width: 800px)" srcset="/lesson11/hero4-2.jpg">
-          <source media="(min-width: 950px)" srcset="/lesson11/hero4-1.jpg">
-          <img src="/lesson11/hero4-1.jpg" alt="Fish Haven Hero image">
-      </picture>
-         <div class="summary">
+          <source media="(max-width: 600px)" srcset="/lesson11/hero4-3.jpg" />
+          <source media="(max-width: 800px)" srcset="/lesson11/hero4-2.jpg" />
+          <source media="(min-width: 950px)" srcset="/lesson11/hero4-1.jpg" />
+          <img src="/lesson11/hero4-1.jpg" alt="Fish Haven Hero image" />
+        </picture>
+        <div class="summary">
           <h3>Weather Summary</h3>
-          <p><strong>Current Conditions:</strong> <span id="current-cond"></span></p>
-          <p><strong>Currently:</strong> <span id="current-temp"></span>&deg;F</p>
+          <p>
+            <strong>Current Conditions:</strong> <span id="current-cond"></span>
+          </p>
+          <p>
+            <strong>Currently:</strong> <span id="current-temp"></span>&deg;F
+          </p>
           <p><strong>High:</strong> <span id="high-temp"></span>&deg;F</p>
-          <p><strong>Wind Chill:</strong> <span id="wind-chill"></span>&deg;F</p>
+          <p>
+            <strong>Wind Chill:</strong> <span id="wind-chill"></span>&deg;F
+          </p>
           <p><strong>Humidity:</strong> <span id="humid"></span>%</p>
           <p><strong>Wind Speed:</strong> <span id="wind-speed"></span> mph</p>
         </div>
@@ -73,56 +79,68 @@
       </div>
       <div class="contentbox">
         <h3 class="fiveday-2">5 Day Forecast</h3>
-        <table class ="forecast">
+        <table class="forecast">
           <tr>
-          <th><span id="day1"></span></th>
-          <th><span id="day2"></span></th>
-          <th><span id="day3"></span></th>
-          <th><span id="day4"></span></th>
-          <th><span id="day5"></span></th>
-      </tr>
-      <tr>
-          <td><span id="img1">  <img src="#" alt="" id="icon1"></span> 
-          <td><span id="img2">  <img src="#" alt="" id="icon2"></span> 
-          <td><span id="img3">  <img src="#" alt="" id="icon3"></span> 
-          <td><span id="img4">  <img src="#" alt="" id="icon4"></span> 
-          <td><span id="img5">  <img src="#" alt="" id="icon5"></span> 
-      </tr>
-      <tr>
-         <td><span id="temp1"></span>&deg;F</td>
-         <td><span id="temp2"></span>&deg;F</td>
-         <td><span id="temp3"></span>&deg;F</td>
-         <td><span id="temp4"></span>&deg;F</td>
-         <td><span id="temp5"></span>&deg;F</td>
-      </tr>
-  </table>
-  </div>
-  <div class="contentbox">
-    <h3 class="fh-header">Important Community Events</h3>
-     <div class="fhEvents"></div>
-  </div> 
+            <th><span id="day1"></span></th>
+            <th><span id="day2"></span></th>
+            <th><span id="day3"></span></th>
+            <th><span id="day4"></span></th>
+            <th><span id="day5"></span></th>
+          </tr>
+          <tr>
+            <td>
+              <span id="img1"> <img src="#" alt="" id="icon1" /></span>
+            </td>
+            <td>
+              <span id="img2"> <img src="#" alt="" id="icon2" /></span>
+            </td>
+            <td>
+              <span id="img3"> <img src="#" alt="" id="icon3" /></span>
+            </td>
+            <td>
+              <span id="img4"> <img src="#" alt="" id="icon4" /></span>
+            </td>
+            <td>
+              <span id="img5"> <img src="#" alt="" id="icon5" /></span>
+            </td>
+          </tr>
+
+          <tr>
+            <td><span id="temp1"></span>&deg;F</td>
+            <td><span id="temp2"></span>&deg;F</td>
+            <td><span id="temp3"></span>&deg;F</td>
+            <td><span id="temp4"></span>&deg;F</td>
+            <td><span id="temp5"></span>&deg;F</td>
+          </tr>
+        </table>
+      </div>
+      <div class="contentbox">
+        <h3 class="fh-header">Important Community Events</h3>
+        <div class="fhEvents"></div>
+      </div>
       <div class="contentbox">
         <div class="articlebox">
-          <h3>News: Road Construction Begins on US 89 </h3>
+          <h3>News: Home Construction Boom</h3>
           <img
             class="franklin-fair"
             src="/images/construction.jpg"
             alt="Construction Graphic"
           />
           <p class="fair-p">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-            ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-            consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-            sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-            aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
-            exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
-            commodo consequat. Lorem ipsum dolor sit amet, consectetuer
-            adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-            dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-            quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
-            aliquip ex ea commodo consequat.
+            Bear Lake has been a popular tourist destination for years, and it's
+            really starting to show. This beautiful lake, deemed the "Caribbean
+            of the Rockies" for its beautiful blue color, has anywhere from
+            300,000 to 500,000 visitors each year. The last few years have also
+            brought a shift in population so there are now more vacation homes
+            than primary residences, 61 percent to 39 percent. This has been
+            good news for Darren Lutz and his company, Lutz Construction in
+            Garden City. He's been involved with a significant portion of all
+            the new home construction in the last 10 years including The
+            Reserve, a beautiful gated community in nearby Fish Haven, Idaho,
+            and the Bluebird Bed and Breakfast, along Highway 89. Being in the
+            often challenging construction industry, Darren says there's plenty
+            of competition. But he feels this is positive because it means the
+            economy is improving and the quality of work is high. (continued at <a href="https://www.ksl.com/article/16565769/lutz-construction">KSL</a>.)
           </p>
           <img
             class="franklin-fair2"
@@ -142,38 +160,40 @@
           <p>&#128231; hello@theprestonbuzz.com</p>
           <div class="social">
             <a href="http://www.facebook.com" target="_blank"
-              ><img
-                src="/images/facebookicon.png"
-                alt="Facebook icon"
+              ><img src="/images/facebookicon.png" alt="Facebook icon"
             /></a>
             <a href="http://www.instagram.com" target="_blank"
-              ><img
-                src="/images/instagramicon.png"
-                alt="Instagram icon"
+              ><img src="/images/instagramicon.png" alt="Instagram icon"
             /></a>
 
             <a href="http://www.youtube.com" target="_blank"
-              ><img
-                src="/images/youtubeicon.png"
-                alt="YouTube icon"
+              ><img src="/images/youtubeicon.png" alt="YouTube icon"
             /></a>
           </div>
-          <p class="openweather">Forecast provided by <a href="https://openweathermap.org/">OpenWeather</a>.</p>
-
+          <p class="openweather">
+            Forecast provided by
+            <a href="https://openweathermap.org/">OpenWeather</a>.
+          </p>
         </div>
-        <a class="map" href="https://www.google.com/maps/place/Preston,+ID+83263/@42.0997416,-111.9154302,13z/data=!3m1!4b1!4m5!3m4!1s0x8754f78c7cda6c31:0xf1b3b4fc465a4a3f!8m2!3d42.0963133!4d-111.8766173?hl=en"><img class="prestonmap" src="/images/prestonmap.jpg" alt="Map of Preston, Idaho"></a>
-    
+        <a
+          class="map"
+          href="https://www.google.com/maps/place/Preston,+ID+83263/@42.0997416,-111.9154302,13z/data=!3m1!4b1!4m5!3m4!1s0x8754f78c7cda6c31:0xf1b3b4fc465a4a3f!8m2!3d42.0963133!4d-111.8766173?hl=en"
+          ><img
+            class="prestonmap"
+            src="/images/prestonmap.jpg"
+            alt="Map of Preston, Idaho"
+        /></a>
       </div>
-
-              </footer>
-      <div class="footer2preston">
+    </footer>
+    <div class="footer2preston">
       <p>
         &copy;
         <script src="/lesson6/js/year.js"></script>
-        The Preston Buzz </p>  
+        The Preston Buzz
+      </p>
       <p class="date">
-     <script src="/lesson11/fhweatherapi.js"></script> 
-     <script src="/lesson11/fhcityevents.js"></script>
+        <script src="/lesson11/fhweatherapi.js"></script>
+        <script src="/lesson11/fhcityevents.js"></script>
         <script src="/lesson6/currentdate.js"></script>
       </p>
       <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
