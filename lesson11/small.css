@@ -438,6 +438,46 @@ border-left: green solid 6px;
   text-align: center;
 }
 
+.prestonEvents {
+  background-color: white;
+  padding: 20px;
+  line-height: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.preston-header {
+  text-align: center;
+  font-size: 30px;
+  color: #c13c1e;
+}
+
+.fh-header {
+  text-align: center;
+  font-size: 30px;
+  color: #c13c1e;
+}
+
+.fhEvents {
+  max-width: 80%;
+}
+
+.ss-header {
+  text-align: center;
+  font-size: 30px;
+  color: #c13c1e;
+}
+
+.ssEvents {
+  background-color: white;
+  padding: 20px;
+  line-height: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
 
 
 
