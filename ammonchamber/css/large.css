@@ -140,45 +140,38 @@
   }
 
   .missionbox {
-    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
     margin: 2em auto;
     background-color: #eee;
-    height: 430px;
-    line-height: 1px;
-    padding-top: 15px;
-    padding-bottom: 40px;
-  }
-  .upcomingevents {
-    text-align: center;
-    margin-right: 40px;
   }
 
   .eventsheadline {
-    border: 7px double white;
-    height: 60px;
-    font-size: 40px;
     text-align: center;
+    border: 4px double white;
+    height: 50px;
+    font-size: 40px;
     margin: 10px;
-    padding-top: 30px;
+    padding: 15px;
   }
-  .eventsbox {
-    width: 160%;
+  .eventsbox {    
     background-color: #f3783c;
     color: white;
-    margin: 2em auto;
-    height: 430px;
-    line-height: 25px;
+    line-height: 50px;
     padding: 40px;
-    padding-top: 15px;
-    padding-bottom: 40px;
+    
   }
 
   .weatherbox {
     width: 900px;
+    text-align: center;
     
   }
 
- 
+ .forecastbox {
+   margin: auto;
+ }
+  
   table {
     width: 300px;
     max-width: 100%;
