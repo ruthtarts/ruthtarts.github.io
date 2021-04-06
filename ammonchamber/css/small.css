@@ -1,0 +1,169 @@
+/************* Small View **********/
+
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    padding-left: 1em;
+    padding-top: 0.5em;
+  }
+
+  h2 {
+    color: #2d7592;
+  }
+  
+  a {
+    color: #f3783c;
+  }
+
+
+
+
+  header {
+    display: flex;
+    width: 100%;
+    background-color: #383838;
+    font-size: 10px;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    padding-right: 230px;
+    
+  }
+  
+.logo {
+    float: left;
+    width: 550px;
+    margin-left: 200px;
+
+  }
+  
+  nav {
+    display: inline-block;
+    background-color: #383838;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 250px;
+    overflow: hidden;
+}
+
+  
+  nav ul {
+    list-style-type: none;
+    max-width: 30%;
+    justify-content: space-evenly;
+    padding: -5px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .nav a {
+    float: left;
+    display: block;
+    text-align: center;
+    border-bottom: 3px solid transparent;
+  }
+  
+  nav a:hover {
+    border-bottom: 3px solid #f3783c;
+  }
+  
+  .navigation {
+    display: block;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navigation li:first-child {
+    display: block;
+  }
+  
+  .navigation li {
+    display: none;
+  }
+  
+  .navigation a {
+    display: block;
+    text-decoration: none;
+  }
+  
+  .responsive li {
+    display: block;
+
+  }
+  .ham {
+    display: block;
+  }
+  
+  a {
+    color: #f3783c;
+  }
+  
+  .activelink a {
+    border-bottom: 3px solid #f3783c;
+  }
+
+  .activelink a:hover {
+    border-bottom: 3px solid #c5d081;
+  }
+  
+  
+
+
+ h4 {
+   padding: 10px;
+  line-height: 18px;
+}
+
+section p {
+  margin: 30px;
+}
+ 
+  .logo {
+    max-width: 100%;
+    margin-bottom: -25px;
+  }
+
+
+  .hero-box {
+    display: block;
+    max-width: 100%;
+  }
+  
+  .hero-box img {
+    width: 100%;
+  }
+  
+  .heroimg {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    width: 100%;
+  }
+
+
+.communityheading {
+  text-align: center;
+  padding: 40px;
+  width: 500px;
+  color: #2d7592;
+  border: 7px double #2d7592;
+}
+
+.citymain {
+  width: 100%;
+  padding: 40px;
+}
+
+.ammonnews {
+  text-align: center;
+  padding: 40px;
+  width: 500px;
+  color: #2d7592;
+  border: 7px double #2d7592;
+}
