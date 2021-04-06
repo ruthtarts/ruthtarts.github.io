@@ -146,24 +146,3 @@ section p {
     width: 100%;
   }
 
-
-.communityheading {
-  text-align: center;
-  padding: 40px;
-  width: 500px;
-  color: #2d7592;
-  border: 7px double #2d7592;
-}
-
-.citymain {
-  width: 100%;
-  padding: 40px;
-}
-
-.ammonnews {
-  text-align: center;
-  padding: 40px;
-  width: 500px;
-  color: #2d7592;
-  border: 7px double #2d7592;
-}

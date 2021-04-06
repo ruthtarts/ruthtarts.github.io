@@ -1,0 +1,53 @@
+{
+    "companies": [
+      {
+        "name": "Kids Dental",
+        "address": "3299 E 17th Street",
+        "phone": "(208) 529-3007",
+        "website": "https://www.kidsdentalammon.com/",
+        "imageurl": "/ammonchamber/images/kidsdentallogo.png"
+      },
+      {
+        "name": "Retreat Day Spa & Salon",
+        "address": "1489 Curlew Drive",
+        "phone": "(208) 523-5355",
+        "website": "http://www.retreatdayspaandsalon.com/",
+        "imageurl": "/ammonchamber/images/retreatdayspaandsalonlogo.png"
+      },
+      {
+        "name": "The Gables of Ammon Assisted Living & Memory Care",
+        "address": "1405 Curlew Drive",
+        "phone": "(208) 542-3400",
+        "website": "https://www.thegablesofammon.com/",
+        "imageurl": "/ammonchamber/images/thegablesofammonlogo.png"
+      },
+      {
+        "name": "Renegade All Stars Cheerleading",
+        "address": "3170 East 113 N",
+        "phone": "(208) 680-7804",
+        "website": "https://renegadeallstars.com/",
+        "imageurl": "/ammonchamber/images/renegadeallstarslogo.png"
+      },
+      {
+        "name": "Kids' Town",
+        "address": "1520 North 25th East",
+        "phone": "(208) 313-8955",
+        "website": "https://www.kidstownatthefalls.com/",
+        "imageurl": "/ammonchamber/images/kidstownlogo.webp"
+      },
+      {
+        "name": "Sunnyside Gardens",
+        "address": "3240 East Sunnyside Road",
+        "phone": "(208) 522-4660",
+        "website": "http://www.sunnysidegardens.net/",
+        "imageurl": "/ammonchamber/images/sunnysidegardenslogo.png"
+      },
+      {
+        "name": "Maverik Convenience Store",
+        "address": "3540 East Sunnyside Road",
+        "phone": "(208) 528-4260",
+        "website": "https://www.maverik.com/",
+        "imageurl": "/ammonchamber/images/maveriklogo.png"
+      }
+    ]
+  }

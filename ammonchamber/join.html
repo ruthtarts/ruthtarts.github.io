@@ -39,7 +39,118 @@
       </nav>
     </header>
     <main>
- <h1>Become a Member today!</h1>
+      <div class="joinparagraph">
+      <h1 class="joinheading">Membership Information and Application</h1>
+  <p>Joining the Ammon Chamber of Commerce is a rewarding way to uplevel your business and professional life. 
+    Membership offers numerous benefits, giving you exclusive access to resources not found anywhere else. These benefits include, but are not limited to: <br>
+  <ul class="benefitlist">
+      <li>Organized events for networking and sharing information with other local professionals</li>
+      <li>Professional development and discussions led by master presenters</li>
+      <li>Exclusive member-to-member referral program</li>
+      <li>Inclusion in the member directory</li>
+      <li>Credibility among other professionals and the community</li>
+      <li>Advocacy and potential to influence your local leaders on issues that impact your business</li>
+    </ul>
+  </p>
+  <p>If you are ready to join, please fill out the following application or contact board@ammonchamber.com for more additional information.</p>
+</div>
+
+      <form method="get" action="/ammonchamber/thanks.html">
+        <fieldset>
+          <legend>Your Contact Information</legend>
+          <label class="formtop" for="title">Title</label><br>
+          <input list="titles" name="title" id="title" />
+          <datalist id="titles">
+            <option value="Miss"></option>
+            <option value="Mrs."></option>
+            <option value="Ms."></option>
+            <option value="Mr."></option>
+            <option value="Dr."></option>
+          </datalist><br>
+          <br>
+          <label class="formtop"
+            >First Name <span class="req">(required)</span><br />
+            <input
+              type="text"
+              pattern="[a-z A-Z]{5,}"
+              class="form-control"
+              name="firstname"
+              required /></label
+          ><br /><br>
+          <label class="formtop"
+          >Last Name <span class="req">(required)</span><br />
+          <input
+            type="text"
+            pattern="[a-z A-Z]{5,}"
+            class="form-control"
+            name="lastname"
+            title="Must be 5 or more alphabet characters."
+            required /></label
+        ><br><br>
+          <label class="formtop"
+            >E-mail <span class="req">(required)</span><br />
+            <input
+              type="email"
+              name="email"
+              placeholder="example@example.com"
+              required /></label
+          ><br /><br>
+          <label class="formtop"
+            >Contact Number </span><br />
+            <input type="tel" name="tel"  /> </label
+          ><br /><br>
+          <label class="formtop"
+          >Business Name <span class="req">(required)</span><br />
+          <input
+            type="text"
+            pattern="[a-z A-Z]{5,}"
+            class="form-control"
+            name="businessname"
+            required /></label
+        ><br><br>
+        <label class="formtop"
+        >Business Website </span><br />
+        <input
+          type="url"
+          pattern="[a-z A-Z]{5,}"
+          class="form-control"
+          name="businesswebsite"
+          placeholder="http://"
+        /></label
+      ><br><br>
+      <label class="formtop"
+            >Business Description </span><br />
+        <textarea id="additional" name="additional" rows="4" cols="30">
+        </textarea>
+      </label>
+        </fieldset>
+        <br />
+
+ 
+        <fieldset>
+          <legend>Membership Level (choose one)</legend>
+          <label class="membershiplevel"
+            ><input type="radio" name="level" value="non-profit" /> Non-Profit - $100</label
+          ><br /><br>
+          <label class="membershiplevel"
+            ><input type="radio" name="level" value="bronze" /> Bronze - $200</label
+          ><br /><br>
+          <label class="membershiplevel"
+            ><input type="radio" name="level" value="silver" /> Silver - $400</label
+          ><br /><br>
+          <label class="membershiplevel"
+          ><input type="radio" name="level" value="gold" /> Gold - $1000</label
+        ><br /><br>
+        <img class="membershipchart" src="/ammonchamber/images/membershipchart.gif">
+        </fieldset>
+        <br />
+
+        <br />
+
+        <input type="submit" value="Submit Your Application" class="submitBtn" />
+      </form>
+      <br />
+      <br />
 
     </main>
 
