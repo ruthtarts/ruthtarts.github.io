@@ -1,7 +1,6 @@
 /*****Large View*****/
 
 @media only screen and (min-width: 950px) {
-  
   header {
     width: 1500px;
     margin: 0 auto;
@@ -9,7 +8,7 @@
     font-size: 10px;
     overflow: hidden;
   }
-   
+
   nav ul {
     display: flex;
     justify-content: space-evenly;
@@ -28,8 +27,6 @@
   .navigation li:first-child {
     display: none;
   }
-
-
 
   .action {
     grid-column: 1;
@@ -64,14 +61,14 @@
     font-family: "Open Sans", sans-serif;
     padding: 15px;
     background-color: #383838;
-
-}
+  }
 
   main {
     width: 100%;
     max-width: 1500px;
     margin: 0px auto;
     background-color: white;
+    padding-bottom: 100px;
   }
 
   .businesscontainer {
@@ -83,7 +80,6 @@
     grid-template-columns: 1fr 1fr;
     width: 1500px;
     max-width: 100%;
-
   }
 
   .hero-box img {
@@ -109,7 +105,7 @@
   .contentbox {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 0 auto
+    margin: 0 auto;
   }
 
   section {
@@ -119,7 +115,6 @@
     padding: 20px;
     padding-right: 25px;
     width: 350px;
-
     margin: 5px;
     text-align: center;
   }
@@ -141,7 +136,7 @@
 
   .missionbox {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
     margin: 2em auto;
     background-color: #eee;
   }
@@ -154,23 +149,23 @@
     margin: 10px;
     padding: 15px;
   }
-  .eventsbox {    
+  .eventsbox {
     background-color: #f3783c;
     color: white;
     line-height: 50px;
     padding: 40px;
-    
   }
 
   .weatherbox {
-    width: 900px;
     text-align: center;
-    
   }
 
- .forecastbox {
-   margin: auto;
- }
+  .threedayforecastheading {
+    text-align: center;
+  }
+
+  .forecastbox {
+  }
   
   table {
     width: 300px;
@@ -190,14 +185,10 @@
   }
 
   footer {
-    background-color: #595959;
     color: white;
     height: 50px;
     text-align: center;
     line-height: 8px;
     padding-top: 19px;
   }
- 
-
 }
-
