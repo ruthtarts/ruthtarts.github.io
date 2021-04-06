@@ -1,6 +1,31 @@
 /*****Large View*****/
 
 @media only screen and (min-width: 950px) {
+  .weatheralert {
+    text-align: center;
+    background-color: #f3783c;
+    color: white;
+    line-height: 5px;
+    padding-top: 5px;
+    font-weight: bold;
+  }
+  
+  .weatherx {
+    color: white;
+    font-weight: bold;
+    float: right;
+    padding-left: 45px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 1s;
+    margin-top: -18px;
+    margin-right: 15px;
+  }
+  
+  .weatherx:hover {
+    color: #383838;
+  }
+
   header {
     width: 1500px;
     margin: 0 auto;
