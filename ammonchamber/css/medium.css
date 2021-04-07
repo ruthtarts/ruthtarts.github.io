@@ -14,36 +14,6 @@
     max-width: 700px;
   }
 
-  nav {
-    display: inline-block;
-    background-color: #383838;
-    text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
-    overflow: hidden;
-  }
-
-  nav ul {
-    list-style-type: none;
-    max-width: 30%;
-    justify-content: space-evenly;
-    padding: -5px;
-  }
-
-  nav ul li a {
-    color: white;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
-    font-size: 20px;
-  }
-
-  .nav a {
-    float: left;
-    display: block;
-    text-align: center;
-    border-bottom: 3px solid transparent;
-  }
 
   .navigation {
     display: block;
@@ -71,9 +41,6 @@
     display: block;
   }
 
-  a {
-    color: #f3783c;
-  }
 
   body {
     font-family: "Open Sans", sans-serif;
@@ -154,5 +121,12 @@
       max-width: 60%;
       margin: 0 auto;
   }
+
+
+
+.socialmediaicons a {
+  color: white;
+  margin: 5px;
+}
 
 }
