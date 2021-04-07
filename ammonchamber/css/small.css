@@ -1,148 +1,222 @@
 /************* Small View **********/
 
-  h1 {
-    font-family: "Montserrat", sans-serif;
-    padding-left: 1em;
-    padding-top: 0.5em;
-  }
-
-  h2 {
-    color: #2d7592;
-  }
-  
-  a {
-    color: #f3783c;
-  }
-
-
-
-
-  header {
-    display: flex;
-    width: 100%;
-    background-color: #383838;
-    font-size: 10px;
-    max-width: 1500px;
-    margin: 0 auto;
-    padding-bottom: 25px;
-    padding-top: 15px;
-    padding-right: 230px;
-    
-  }
-  
-.logo {
-    float: left;
-    width: 550px;
-    margin-left: 200px;
-
-  }
-  
-  nav {
-    display: inline-block;
-    background-color: #383838;
-    text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 250px;
-    overflow: hidden;
+h1 {
+  font-family: "Montserrat", sans-serif;
+  padding-left: 1em;
+  padding-top: 0.5em;
 }
 
-  
-  nav ul {
-    list-style-type: none;
-    max-width: 30%;
-    justify-content: space-evenly;
-    padding: -5px;
-  }
-  
-  nav ul li a {
-    color: white;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
-    font-size: 20px;
-  }
+h2 {
+  color: #2d7592;
+}
 
-  .nav a {
-    float: left;
-    display: block;
-    text-align: center;
-    border-bottom: 3px solid transparent;
-  }
-  
-  nav a:hover {
-    border-bottom: 3px solid #f3783c;
-  }
-  
-  .navigation {
-    display: block;
-    list-style: none;
-    padding: 0;
-  }
-  
-  .navigation li:first-child {
-    display: block;
-  }
-  
-  .navigation li {
-    display: none;
-  }
-  
-  .navigation a {
-    display: block;
-    text-decoration: none;
-  }
-  
-  .responsive li {
-    display: block;
+a {
+  color: #f3783c;
+}
 
-  }
-  .ham {
-    display: block;
-  }
-  
-  a {
-    color: #f3783c;
-  }
-  
-  .activelink a {
-    border-bottom: 3px solid #f3783c;
-  }
+header {
+  width: 100%;
+  background-color: #383838;
+  font-size: 10px;
+}
 
-  .activelink a:hover {
-    border-bottom: 3px solid #c5d081;
-  }
-  
-  
+.logo {
+  float: left;
+  width: 95%;
+  margin: auto;
+  margin-top: 15px;
+}
 
+nav {
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  overflow: hidden;
+}
 
- h4 {
-   padding: 10px;
+nav ul {
+  list-style-type: none;
+  max-width: 30%;
+  justify-content: space-evenly;
+  padding: -5px;
+}
+
+nav ul li a {
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav a {
+  display: block;
+  text-align: center;
+  border-bottom: 3px solid transparent;
+}
+
+nav a:hover {
+  border-bottom: 3px solid #f3783c;
+}
+
+.navigation {
+  display: block;
+  list-style: none;
+  padding: 0;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation a {
+  display: block;
+  text-decoration: none;
+}
+
+.responsive li {
+  display: block;
+}
+.ham {
+  display: block;
+}
+
+a {
+  color: #f3783c;
+}
+
+.activelink a {
+  border-bottom: 3px solid #f3783c;
+}
+
+.activelink a:hover {
+  border-bottom: 3px solid #c5d081;
+}
+
+.action {
+  grid-column: 1;
+  grid-row: 1;
+  background-color: rgba(240, 240, 240, 0.8);
+  color: #383838;
+  text-align: center;
+  font-size: 0.9em;
+  height: 150px;
+}
+
+.action button {
+  line-height: 2em;
+  width: 8em;
+  background-color: #2d7592;
+  color: white;
+  font-weight: normal;
+}
+
+main {
+  padding-bottom: 10px;
+}
+
+h4 {
+  padding: 10px;
   line-height: 18px;
 }
 
-section p {
-  margin: 30px;
+.hero-box {
+  display: block;
+  max-width: 100%;
 }
- 
-  .logo {
-    max-width: 100%;
-    margin-bottom: -25px;
-  }
 
+.hero-box img {
+  width: 100%;
+}
 
-  .hero-box {
-    display: block;
-    max-width: 100%;
-  }
-  
-  .hero-box img {
-    width: 100%;
-  }
-  
-  .heroimg {
-    grid-column: 1 / -1;
-    grid-row: 1;
-    width: 100%;
-  }
+.heroimg {
+  grid-column: 1 / -1;
+  grid-row: 1;
+  width: 100%;
+}
+.businesscontainer {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+section {
+  background-color: #383838;
+  color: white;
+  padding: 20px;
+  margin: 5px;
+  text-align: center;
+}
+
+section img {
+  border: 1px solid #ddd;
+  padding: 2px;
+}
+.commerceheadline {
+  font-size: 28px;
+}
+
+.missionstatement {
+  line-height: 30px;
+  padding: 30px;
+}
+
+.missionbox {
+  margin: 1em auto;
+  background-color: #eee;
+  max-width: 100%;
+}
+
+.eventsheadline {
+  text-align: center;
+  border: 4px double white;
+  font-size: 40px;
+  margin: 10px;
+  padding: 15px;
+  line-height: 50px;
+}
+.eventsbox {
+  background-color: #f3783c;
+  color: white;
+  font-size: 14px;
+  padding: 40px;
+}
+
+.weatherbox {
+  text-align: center;
+}
+
+.threedayforecastheading {
+  text-align: center;
+}
+
+table {
+  width: 300px;
+  max-width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  background-color: #2d7592;
+  color: #ebebd3ff;
+}
+td {
+  background-color: white;
+}
+
+footer {
+  background: #383838;
+  color: white;
+  text-align: center;
+  line-height: 18px;
+  padding: 10px;
+  padding-top: 20px;
+}

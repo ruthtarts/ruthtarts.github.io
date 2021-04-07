@@ -1,4 +1,128 @@
 /*******Medium View*************/
 
 @media only screen and (min-width: 601px) and (max-width: 949px) {
+  .logo {
+    margin: auto;
+    width: 50%;
+  }
+
+  header {
+    display: flex;
+    float: center;
+    width: 90%;
+    font-size: 10px;
+    max-width: 700px;
+  }
+
+  nav {
+    display: inline-block;
+    background-color: #383838;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow: hidden;
+  }
+
+  nav ul {
+    list-style-type: none;
+    max-width: 30%;
+    justify-content: space-evenly;
+    padding: -5px;
+  }
+
+  nav ul li a {
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .nav a {
+    float: left;
+    display: block;
+    text-align: center;
+    border-bottom: 3px solid transparent;
+  }
+
+  .navigation {
+    display: block;
+    list-style: none;
+    padding: 0;
+  }
+
+  .navigation li:first-child {
+    display: block;
+  }
+
+  .navigation li {
+    display: none;
+  }
+
+  .navigation a {
+    display: block;
+    text-decoration: none;
+  }
+
+  .responsive li {
+    display: block;
+  }
+  .ham {
+    display: block;
+  }
+
+  a {
+    color: #f3783c;
+  }
+
+  body {
+    font-family: "Open Sans", sans-serif;
+    padding: 15px;
+    max-width: 750px;
+    background-color: #383838;
+  }
+
+  main {
+    margin: auto;
+    background-color: white;
+    padding-bottom: 30px;
+  }
+
+  .action {
+    background-color: rgba(240, 240, 240, 0.8);
+    color: #383838;
+    text-align: center;
+    font-size: 0.9em;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    padding-top: 5px;
+    height: 100px;
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .action button {
+    line-height: 2em;
+    width: 8em;
+    background-color: #2d7592;
+    color: white;
+    font-weight: normal;
+  }
+
+  section {
+    background-color: #383838;
+    color: white;
+    font-size: 14px;
+    padding: 20px;
+    padding-right: 25px;
+    width: 350px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .eventsbox {
+    line-height: 30px;
+    font-size: 14px;
+  }
 }
