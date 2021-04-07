@@ -14,6 +14,8 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    
+    <script src="https://kit.fontawesome.com/bb5208ab22.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/ammonchamber/css/small.css" />
     <link rel="stylesheet" href="/ammonchamber/css/large.css" />
     <link rel="stylesheet" href="/ammonchamber/css/medium.css" />
@@ -21,6 +23,8 @@
     <link rel="shortcut icon" href="/ammonchamber/images/favicon.png" />
   </head>
   <body>
+    <div class="socialmediaicons"><a href="http://www.facebook.com"><i class="fab fa-facebook fa-2x"></i></a>
+      <a href="http://www.instagram.com"><i class="fab fa-instagram-square fa-2x"></i></a></div>
     <header>
       <img
         class="logo"
@@ -29,7 +33,7 @@
       />
       <nav>
         <ul class="navigation">
-          <li><a class="ham" href="#">Menu</a></li>
+          <li><a class="ham" href="#">&#9776</a></li>
           <li><a href="/ammonchamber/index.html">Home</a></li>
           <li><a href="/ammonchamber/city.html">City</a></li>
           <li><a href="/ammonchamber/join.html">Join</a></li>
@@ -39,9 +43,77 @@
       </nav>
     </header>
     <main>
- <h1>Contact Us</h1>
+ <h1 class=contactheadline>Contact Us</h1>
 
- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19473.110719822642!2d-111.93540589917217!3d43.48783036180859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53545f4a2509afa5%3A0xcd8c229003535fb8!2sCity%20Of%20Ammon!5e0!3m2!1sen!2sus!4v1617517403600!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+ <form method="get" action="/ammonchamber/thanks.html">
+  <fieldset>
+    <legend>Your Contact Information</legend>
+     <label class="formtop"
+      >First Name <span class="req">(required)</span><br />
+      <input
+        type="text"
+        pattern="[a-z A-Z]{5,}"
+        class="form-control"
+        name="firstname"
+        required /></label
+    ><br /><br>
+    <label class="formtop"
+    >Last Name <span class="req">(required)</span><br />
+    <input
+      type="text"
+      pattern="[a-z A-Z]{5,}"
+      class="form-control"
+      name="lastname"
+      title="Must be 5 or more alphabet characters."
+      required /></label
+  ><br><br>
+    <label class="formtop"
+      >E-mail <span class="req">(required)</span><br />
+      <input
+        type="email"
+        name="email"
+        placeholder="example@example.com"
+        required /></label
+    ><br /><br>
+    <label class="formtop"
+      >Contact Number </span><br />
+      <input type="tel" name="tel"  /> </label
+    ><br /><br>
+ 
+<label class="formtop"
+      >Questions or Comments </span><br />
+  <textarea id="additional" name="additional" rows="4" cols="30">
+  </textarea>
+</label>
+  </fieldset>
+  
+  <br />
+
+  <br />
+
+  <input type="submit" value="Submit Contact Form" class="submitBtn" />
+</form>
+
+ <div class="contactcontainer">
+  <iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19473.110719822642!2d-111.93540589917217!3d43.48783036180859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53545f4a2509afa5%3A0xcd8c229003535fb8!2sCity%20Of%20Ammon!5e0!3m2!1sen!2sus!4v1617517403600!5m2!1sen!2sus" 
+  width= "300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe></a>
+  <div class="contact">
+    <p class="address">&#128204; 2135 Ammon Road; Ammon, ID 83406</p>
+    <p>&#9742; 208-612-4000</p>
+    <p>&#128231; board@ammonchamber.com</p>
+    <p>Social Media: <a href="facebook.com"><i class="fab fa-facebook" id="fbicon"></i></a> <a href="instagram.com"><i class="fab fa-instagram-square" id="igicon"></i></a></p>
+  </div>
+  </div>
+
+  <div class="boardofdirectors">
+<h3>Board of Directors</h3><br>
+J. Doe - President and Chief Executive Officer<br>
+C. Smith - Chair of the Board <br>
+S. Baker - Vice Chair of the Board<br>
+D. Martinez - Treasurer<br>
+
+  </div>
 
     </main>
 
