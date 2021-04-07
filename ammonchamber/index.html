@@ -21,9 +21,8 @@
     <link rel="shortcut icon" href="/ammonchamber/images/favicon.png" />
   </head>
   <body id="body"></body>
-  <div class="weatheralert">
-    <p>Spring snowstorm watch in effect until 10PM</p>
-    <span class="weatherx">&#10005</span><br></div>
+
+  <div id="weatheralert"></div>
     <header>
       <img
         class="logo"
@@ -32,7 +31,7 @@
       />
       <nav>
         <ul class="navigation">
-          <li><a class="ham" href="#">Menu</a></li>
+          <li><a class="ham" href="#">&#9776</a></li>
           <li class="activelink">
             <a href="/ammonchamber/index.html">Home</a>
           </li>
@@ -46,10 +45,10 @@
     <main>
       <div class="hero-box">
         <picture class="heroimg">
-          <source media="(max-width: 600px)" srcset="/lesson9/hero2-3.jpg" />
-          <source media="(max-width: 800px)" srcset="/lesson9/hero2-2.jpg" />
+          <source media="(max-width: 600px)" srcset="/ammonchamber/images/heroimage1-1.jpg" />
+          <source media="(max-width: 800px)" srcset="/ammonchamber/images/heroimage1-2.jpg" />
           <source
-            media="(min-width: 925px)"
+            media="(min-width: 950px)"
             srcset="/ammonchamber/images/heroimage1.jpg"
           />
           <img
@@ -139,13 +138,13 @@
           <h3 class="eventsheadline">Upcoming Events</h3>
           <br />
           · <strong>April 6th - 12:30PM </strong>- Ammon Chamber Luncheon and Speaker @ the La
-          Quinta Inn<br />
-          · <strong>April 23rd - 6PM</strong> - Dinner with the Chamber @ The Cellar<br />
-          · <strong> May 8th - 3PM</strong> - Freezin' for a Reason Fundraiser @ the Ammon Pool<br />
+          Quinta Inn<br />   <br />
+          · <strong>April 23rd - 6PM</strong> - Dinner with the Chamber @ The Cellar<br />   <br />
+          · <strong> May 8th - 3PM</strong> - Freezin' for a Reason Fundraiser @ the Ammon Pool<br />   <br />
           · <strong> May 13th - 8 to 10AM</strong> - Ammon Annual Breakfast with the Mayor @
-          McCowing Park<br />
+          McCowing Park<br />   <br />
           · <strong> June 9th - 8AM</strong> - Ammon Chamber Golf Tournament @ Sandcreek Golf
-          Course<br />
+          Course<br />   <br />
         </div>
       </div>
         <div class="weatherbox">
@@ -167,6 +166,23 @@
     <th><span id="day1"></span></th>
     <th><span id="day2"></span></th>
     <th><span id="day3"></span></th>
+  </tr>
+  <tr>
+    <td>
+      <span id="img1"> <img src="#" alt="" id="icon1" /></span>
+    </td>
+    <td>
+      <span id="img2"> <img src="#" alt="" id="icon2" /></span>
+    </td>
+    <td>
+      <span id="img3"> <img src="#" alt="" id="icon3" /></span>
+    </td>
+    <td>
+      <span id="img4"> <img src="#" alt="" id="icon4" /></span>
+    </td>
+    <td>
+      <span id="img5"> <img src="#" alt="" id="icon5" /></span>
+    </td>
   </tr>
   <tr>
     <td><span id="temp1"></span>&deg;F</td>
@@ -191,7 +207,6 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="/ammonchamber/js/webfont.js"></script>
-    <script src="/ammonchamber/js/weatheralert.js"></script>
     <script src="/ammonchamber/js/weatherapi.js"></script>
   </body>
 </html>
