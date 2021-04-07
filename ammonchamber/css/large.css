@@ -310,64 +310,7 @@
     padding: 15px;
   }
 
-  form legend {
-    font-weight: bold;
-    font-size: 20px;
-    letter-spacing: 1.5px;
-    padding: 5px;
-  }
 
-  form label.top,
-  form div {
-    display: block;
-  }
-
-  form label.formtop input,
-  form label.formtop select {
-    display: block;
-    border: solid 1px #999;
-    padding: 0.75rem;
-    width: 80%;
-    background-color: #f8f8f8;
-  }
-
-  .req {
-    color: #c13c1e;
-  }
-
-  form legend h2 {
-    border: 3px double black;
-    text-align: center;
-    padding: 15px;
-    margin: 100px;
-  }
-
-  form input.submitBtn {
-    border: none;
-    background-color: #f3783c;
-    color: white;
-    border-radius: 5px;
-    padding: 0.75rem;
-  }
-
-  form input.submitBtn:hover {
-    background-color: #2d7592;
-  }
-
-  form label.formtop input:required {
-    border-left: #c13c1e solid 6px;
-  }
-
-  form label.formtop input:required:valid {
-    border-left: green solid 6px;
-  }
-
-  .thankspage {
-    font-size: 20px;
-    text-align: center;
-    font-weight: bold;
-    padding: 140px;
-  }
 
   .directoryheading {
     text-align: center;
@@ -420,4 +363,7 @@
     line-height: 8px;
     padding-top: 19px;
   }
+
+
 }
+
