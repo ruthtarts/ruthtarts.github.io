@@ -1,6 +1,6 @@
 /*******Medium View*************/
 
-@media only screen and (min-width: 601px) and (max-width: 949px) {
+@media only screen and (min-width: 601px) and (max-width: 800px) {
   .logo {
     margin: auto;
     width: 50%;
@@ -125,4 +125,31 @@
     line-height: 30px;
     font-size: 14px;
   }
+
+  .joinheading {
+      text-align: center;
+  }
+
+  .joinparagraph {
+      max-width: 100%;
+      padding: 20px;
+  }
+
+  form {
+    width: 80%;
+    margin: auto;
+  }
+  
+  form fieldset {
+    border: 3px double black;
+    padding: 15px;
+  }
+
+  .membershipchart {
+      display: flex;
+      float: center;
+      max-width: 60%;
+      margin: 0 auto;
+  }
+
 }

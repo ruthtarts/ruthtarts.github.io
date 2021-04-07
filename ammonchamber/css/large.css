@@ -1,6 +1,6 @@
 /*****Large View*****/
 
-@media only screen and (min-width: 950px) {
+@media only screen and (min-width: 801px) {
   .weatheralert {
     text-align: center;
     background-color: #f3783c;
