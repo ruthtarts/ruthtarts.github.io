@@ -4,6 +4,7 @@ h1 {
   font-family: "Montserrat", sans-serif;
   padding-left: 1em;
   padding-top: 0.5em;
+  text-align: center;
 }
 
 h2 {
@@ -315,4 +316,9 @@ form label.formtop input:required:valid {
   .boardofdirectors {
     text-align: center;
     line-height: 20px;
+  }
+
+  .attributions {
+    text-align: center;
+    line-height: 25px;
   }
