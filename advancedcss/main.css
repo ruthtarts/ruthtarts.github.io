@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+/* CSS for small viewports */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #6495ed;
+  width: 100%;
+}
+
+header {
+  text-align: right;
+  padding-top: 20px;
+  background-color: #6495ed;
+  width: 80%;
+  margin: 0 auto;
+}
+
+header a,
+header a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+h1,
+h2 {
+  font-family: "Lora", serif;
+}
+
+h2 {
+  margin-bottom: 70px;
+  font-size: 30px;
+}
+
+a,
+a:visited {
+  color: #6495ed;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #deb887;
+}
+
+h2 a,
+h2 a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+main {
+  background-color: #faebd7;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: -30px;
+  padding: 0;
+  padding-top: 30px;
+}
+
+article {
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 40px;
+  margin-top: 20px;
+  max-width: 80%;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.post-content {
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  padding-right: 25px;
+}
+
+.post-date {
+  color: grey;
+  padding-top: 10px;
+  padding: 0 auto;
+}
+
+img {
+  margin: 0 auto;
+  width: 90%;
+}
+
+/* Media Query for large viewports */
+@media only screen and (min-width: 601px) {
+  header {
+    height: 115%; 
+    width: 200px; 
+    position: absolute;
+    background-color: #6495ed;
+    padding: 35px;
+    margin-left: -10px;
+    padding-bottom: -200px;
+  }
+
+  main {
+      width: auto;
+      margin-top: -8px;
+  }
+
+  body {
+      background-color: #faebd7;
+  }
+
+  article {
+      width: 650px;
+      height: 650px;
+      padding-left: 70px;
+      padding-top: 30px;
+      padding-bottom: 50px;
+      margin-bottom: 20px;
+  }
+
+
+  figure {
+      margin: 0 auto;
+      width: 50%;
+  }
+}
