@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+//set palette
+$primary-color: #6495ed;
+$secondary-color: #faebd7;
+$accent-color-1: black;
+$accent-color-2: white;
+$accent-color-3: grey;
+$accent-color-4: #deb887;
+
+//set colors
+$headline-color-on-white: $accent-color-1;
+$headline-color-on-color: $accent-color-2;
+$link-color-on-white: $primary-color;
+$link-color-on-color: $accent-color-2;
+$body-background-color: $secondary-color;
+$main-background-color: $secondary-color;
+$header-background-color: $primary-color;
+$article-background-color: $accent-color-2;
+
+//set fonts
+$body-font-family: Helvetica, Arial, sans-serif;
+$heading-font-family: "Lora", serif;
+
+//set breakpoints
+$break-small: 20em;
+$break-medium: 31em;
+$break-large: 60em;
+
+//mixins
+@mixin breakpoint($break) {
+  @if $break == large {
+    @media (min-width: $break-large) {
+      @content;
+    }
+  } @else if $break == medium {
+    @media (min-width: $break-medium) {
+      @content;
+    }
+  } @else if $break == small {
+    @media (min-width: $break-small) {
+      @content;
+    }
+  } @else {
+    @media ($break) {
+      @content;
+    }
+  }
+}
+
+body {
+  font-family: $body-font-family;
+  background-color: $body-background-color;
+  width: 100%;
+  @include breakpoint(large) {
+    background-color: #faebd7;
+}
+
+header {
+  text-align: right;
+  padding-top: 20px;
+  width: 100%;
+  background-color: $header-background-color;
+  a,
+  a:visited {
+    color: $link-color-on-color;
+    text-decoration: none;
+  }
+  @include breakpoint(large) {
+    height: 160%;
+    width: 200px;
+    position: absolute;
+    background-color: $header-background-color;
+    padding: 35px;
+    margin-left: -10px;
+  }
+  header,
+  a {
+    color: $link-color-on-color;
+    text-decoration: none;
+    header a:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font-family;
+}
+
+h2 {
+  margin-bottom: 70px;
+  font-size: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  line-height: 30px;
+  font-weight: bold;
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+main {
+  background-color: $main-background-color;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: -30px;
+  padding: 0;
+  padding-top: 30px;
+  @include breakpoint(large) {
+      width: auto;
+      margin-top: -8px;
+      margin-left: 200px;
+    }
+
+}
+
+article {
+  background-color: $article-background-color;
+  padding-top: 20px;
+  padding-left: 40px;
+  margin-top: 20px;
+  max-width: 80%;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  a,
+  a:visited {
+    text-decoration: none;
+    color: $link-color-on-white;
+    a:hover {
+      text-decoration: underline;
+    }
+    a:active {
+      color: $accent-color-4;
+    }
+  }
+  @include breakpoint(large) {
+      width: 650px;
+      height: 650px;
+      padding-left: 70px;
+      padding-top: 30px;
+      padding-right: 30px;
+      padding-bottom: 50px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+article h2 a,
+article h2 a:visited {
+  color: black;
+  text-decoration: none;
+  article h2 a:hover {
+    color: $primary-color;
+    text-decoration: underline;
+  }
+}
+
+.post-content {
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  padding-right: 25px;
+}
+
+.post-date {
+  color: $accent-color-3;
+  padding-top: 10px;
+}
+
+figure {
+  margin: 0 auto;
+  width: 90%;
+  @include breakpoint(large) {
+    margin: 0 auto;
+    width: 50%;
+  }
+}

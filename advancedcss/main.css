@@ -1,63 +1,65 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
-
-/* CSS for small viewports */
 body {
   font-family: Helvetica, Arial, sans-serif;
-  background-color: #6495ed;
+  background-color: #faebd7;
   width: 100%;
 }
-
-header {
+@media (min-width: 60em) {
+  body {
+    background-color: #faebd7;
+  }
+}
+body header {
   text-align: right;
   padding-top: 20px;
+  width: 100%;
   background-color: #6495ed;
-  width: 80%;
-  margin: 0 auto;
 }
-
-header a,
-header a:visited {
+body header a,
+body header a:visited {
   color: white;
   text-decoration: none;
 }
-
-nav ul {
+@media (min-width: 60em) {
+  body header {
+    height: 160%;
+    width: 200px;
+    position: absolute;
+    background-color: #6495ed;
+    padding: 35px;
+    margin-left: -10px;
+  }
+}
+body header header,
+body header a {
+  color: white;
+  text-decoration: none;
+}
+body header header header a:hover,
+body header a header a:hover {
+  text-decoration: underline;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-family: "Lora", serif;
+}
+body h2 {
+  margin-bottom: 70px;
+  font-size: 30px;
+}
+body nav ul {
   list-style-type: none;
   line-height: 30px;
   font-weight: bold;
 }
-
-h1,
-h2 {
-  font-family: "Lora", serif;
-}
-
-h2 {
-  margin-bottom: 70px;
-  font-size: 30px;
-}
-
-a,
-a:visited {
-  color: #6495ed;
-  text-decoration: none;
-}
-
-a:hover {
+body nav ul a:hover {
   text-decoration: underline;
 }
-
-a:active {
-  color: #deb887;
-}
-
-h2 a,
-h2 a:visited {
-  color: black;
-  text-decoration: none;
-}
-
-main {
+body main {
   background-color: #faebd7;
   margin-left: -10px;
   margin-right: -10px;
@@ -65,8 +67,14 @@ main {
   padding: 0;
   padding-top: 30px;
 }
-
-article {
+@media (min-width: 60em) {
+  body main {
+    width: auto;
+    margin-top: -8px;
+    margin-left: 200px;
+  }
+}
+body article {
   background-color: white;
   padding-top: 20px;
   padding-left: 40px;
@@ -74,6 +82,41 @@ article {
   max-width: 80%;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
   margin: 0 auto;
+}
+body article a,
+body article a:visited {
+  text-decoration: none;
+  color: #6495ed;
+}
+body article a a:hover,
+body article a:visited a:hover {
+  text-decoration: underline;
+}
+body article a a:active,
+body article a:visited a:active {
+  color: #deb887;
+}
+@media (min-width: 60em) {
+  body article {
+    width: 650px;
+    height: 650px;
+    padding-left: 70px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+  }
+}
+
+article h2 a,
+article h2 a:visited {
+  color: black;
+  text-decoration: none;
+}
+article h2 a article h2 a:hover,
+article h2 a:visited article h2 a:hover {
+  color: #6495ed;
+  text-decoration: underline;
 }
 
 .post-content {
@@ -85,48 +128,17 @@ article {
 .post-date {
   color: grey;
   padding-top: 10px;
-  padding: 0 auto;
 }
 
-img {
+figure {
   margin: 0 auto;
   width: 90%;
 }
-
-/* Media Query for large viewports */
-@media only screen and (min-width: 601px) {
-  header {
-    height: 115%; 
-    width: 200px; 
-    position: absolute;
-    background-color: #6495ed;
-    padding: 35px;
-    margin-left: -10px;
-    padding-bottom: -200px;
-  }
-
-  main {
-      width: auto;
-      margin-top: -8px;
-  }
-
-  body {
-      background-color: #faebd7;
-  }
-
-  article {
-      width: 650px;
-      height: 650px;
-      padding-left: 70px;
-      padding-top: 30px;
-      padding-right: 30px;
-      padding-bottom: 50px;
-      margin-bottom: 20px;
-  }
-
-
+@media (min-width: 60em) {
   figure {
-      margin: 0 auto;
-      width: 50%;
+    margin: 0 auto;
+    width: 50%;
   }
 }
+
+/*# sourceMappingURL=main.css.map */
